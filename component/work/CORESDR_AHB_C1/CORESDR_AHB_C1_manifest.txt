@@ -1,0 +1,41 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)
+
+Date      :  Sat Aug 21 22:24:16 2021
+Project   :  D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER
+Component :  CORESDR_AHB_C1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CoreSync_pulse_cdc.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc_sync.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen_sync.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastinit.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastsdram.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_openbank.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_16dq.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_32dq.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_FIFO.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_grayCodeCounter.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_rdCtrl.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_synchronizer.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_wrCtrl.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/Bin2Gray.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK_ECC.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_single.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/core/coresdrahb_coresdr_ahb.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1.v
+
+Stimulus files for all Simulation tools:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/coreparameters.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/test/bfm_main.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/test/bfm_ahbl.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/test/user/testbench.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/test/user/mt48lc4m16a2.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/test/user/mt48lc16m16a2.v
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/test/bfm_package.v
+

@@ -1,0 +1,3113 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.4 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/simulation
+Eaxi_feedthrough
+Z1 w1628436742
+Z2 DPx4 work 7 axi_pkg 0 22 QmP;H<2o]nASkl<L>A9MR0
+Z3 DPx4 work 9 xhdl_misc 0 22 IWmdY>IzW7H60TO3DFTho3
+Z4 DPx4 work 14 xhdl_std_logic 0 22 X6ilE6m:Sjn@Tlh6R6:Al0
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 658
+R0
+Z9 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_feedthrough.vhd
+Z10 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_feedthrough.vhd
+l0
+Z11 L37 1
+V>Wa:k8LZERT53Fl9gOU?]3
+!s100 B49hc10d1i=zX;RIo_gVT3
+Z12 OW;C;2020.4;71
+33
+Z13 !s110 1629546649
+!i10b 1
+Z14 !s108 1629546649.000000
+Z15 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_feedthrough.vhd|
+Z16 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_feedthrough.vhd|
+!i113 1
+Z17 o-2008 -explicit -work presynth -O0
+Z18 tCvgOpt 0
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 15 axi_feedthrough 0 22 >Wa:k8LZERT53Fl9gOU?]3
+!i122 658
+l303
+L252 149
+VYh@G:WzJzakNo4oofENC72
+!s100 CEjjeBH1=foSk=M^;K[@02
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eaxi_interconnect_ntom
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 675
+R0
+Z19 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_interconnect_ntom.vhd
+Z20 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_interconnect_ntom.vhd
+l0
+L46 1
+Vk:R_KZ7Ifen_XR4@4N1N41
+!s100 `DbKD8>e1abAzCNAQbj141
+R12
+33
+Z21 !s110 1629546652
+!i10b 1
+Z22 !s108 1629546652.000000
+Z23 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_interconnect_ntom.vhd|
+Z24 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_interconnect_ntom.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 21 axi_interconnect_ntom 0 22 k:R_KZ7Ifen_XR4@4N1N41
+!i122 675
+l4765
+L1308 13248
+Vb?WL>EAf`WR_^NlO8m]^41
+!s100 13HXfEg>bz5WeIh6L4RcI1
+R12
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R17
+R18
+Eaxi_master_stage
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 676
+R0
+Z25 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_master_stage.vhd
+Z26 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_master_stage.vhd
+l0
+Z27 L36 1
+VkQ6aXL;MmLcgUKlM4f]QT1
+!s100 MZ:]3F=ek92I<hj?mK`I[2
+R12
+33
+R21
+!i10b 1
+R22
+Z28 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_master_stage.vhd|
+Z29 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_master_stage.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 16 axi_master_stage 0 22 kQ6aXL;MmLcgUKlM4f]QT1
+!i122 676
+l554
+L254 2335
+V_XUVnV1]C>OL>>@kEMf631
+!s100 ?jN3T08BYNEOLRCaI_OJB0
+R12
+33
+Z30 !s110 1629546653
+!i10b 1
+R22
+R28
+R29
+!i113 1
+R17
+R18
+Eaxi_matrix_m
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 662
+R0
+Z31 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_m.vhd
+Z32 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_m.vhd
+l0
+R11
+VVY1cDXj<269Ic?oP3nMYG2
+!s100 88nlABFBd9[EB^^]0MU>i3
+R12
+33
+Z33 !s110 1629546650
+!i10b 1
+Z34 !s108 1629546650.000000
+Z35 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_m.vhd|
+Z36 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_m.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 12 axi_matrix_m 0 22 VY1cDXj<269Ic?oP3nMYG2
+!i122 662
+l1154
+L475 1129
+V_jY2F69Ijda;X4kJ;3cn^0
+!s100 zSVA=Y=O4]n9CdT08<J>U0
+R12
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R17
+R18
+Eaxi_matrix_s
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 674
+R0
+Z37 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_s.vhd
+Z38 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_s.vhd
+l0
+Z39 L39 1
+Vl]VllZ@Vn5ZNYRQS056l12
+!s100 5AfZc4L[[_g`Mb>4E_e9e1
+R12
+33
+R21
+!i10b 1
+R22
+Z40 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_s.vhd|
+Z41 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_s.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 12 axi_matrix_s 0 22 l]VllZ@Vn5ZNYRQS056l12
+!i122 674
+l1129
+L383 1298
+V<VKEISO22SKTBI]Nk;R3L3
+!s100 klQ>ma9Ngz497Q8iG3W[k0
+R12
+33
+R21
+!i10b 1
+R22
+R40
+R41
+!i113 1
+R17
+R18
+Paxi_pkg
+R5
+R6
+R7
+R8
+!i122 655
+R1
+R0
+Z42 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_pkg.vhd
+Z43 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_pkg.vhd
+l0
+L5 1
+VQmP;H<2o]nASkl<L>A9MR0
+!s100 2m:m><GTZgz[Pj0TT:RT10
+R12
+33
+b1
+R13
+!i10b 1
+Z44 !s108 1629546648.000000
+Z45 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_pkg.vhd|
+Z46 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_pkg.vhd|
+!i113 1
+R17
+R18
+Bbody
+R2
+R5
+R6
+R7
+R8
+!i122 655
+l0
+L9 1
+VGSUV1n8<FSD3`ha=7D<AY1
+!s100 04S8J@KKW=U1TWb;4;lei0
+R12
+33
+R13
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R17
+R18
+Eaxi_ra_arbiter
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 663
+R0
+Z47 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_arbiter.vhd
+Z48 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_arbiter.vhd
+l0
+R27
+VI3dWl1cSi12WheOT0CK3b2
+!s100 zY<P0Fe:9EB<MgK_1RD1X0
+R12
+33
+R33
+!i10b 1
+R34
+Z49 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_arbiter.vhd|
+Z50 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_arbiter.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 14 axi_ra_arbiter 0 22 I3dWl1cSi12WheOT0CK3b2
+!i122 663
+l133
+L90 650
+VmG_ETj]1CZk7GleNlzmQ?0
+!s100 OFDQOLlM;=bd[=TQCO:o23
+R12
+33
+R33
+!i10b 1
+R34
+R49
+R50
+!i113 1
+R17
+R18
+Eaxi_ra_channel
+R1
+R2
+R5
+R6
+R7
+R8
+!i122 667
+R0
+Z51 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_channel.vhd
+Z52 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_channel.vhd
+l0
+Z53 L35 1
+VoVCg^96U=L:od4POX7]k42
+!s100 =]1NfL;iih4PiWRzmQd_i0
+R12
+33
+R33
+!i10b 1
+R34
+Z54 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_channel.vhd|
+Z55 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_channel.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R5
+R6
+R7
+R8
+DEx4 work 14 axi_ra_channel 0 22 oVCg^96U=L:od4POX7]k42
+!i122 667
+l961
+L246 1313
+Va>WL<k>:=@dKh2Tgg13am2
+!s100 e?[ck`9Vj1lfRWC[B:n5J0
+R12
+33
+Z56 !s110 1629546651
+!i10b 1
+R34
+R54
+R55
+!i113 1
+R17
+R18
+Eaxi_rd_channel
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 660
+R0
+Z57 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rd_channel.vhd
+Z58 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rd_channel.vhd
+l0
+Z59 L38 1
+VAJ50RVVEWZR<77kSWcIE=0
+!s100 bMh6@08N@4A8LU8XNcalj3
+R12
+33
+R13
+!i10b 1
+R14
+Z60 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rd_channel.vhd|
+Z61 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rd_channel.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 14 axi_rd_channel 0 22 AJ50RVVEWZR<77kSWcIE=0
+!i122 660
+l716
+L334 630
+V^1GK44_1[R[mNV]UFgFGa3
+!s100 BVYk^<:1SSnY;G`m]5Y0R3
+R12
+33
+R13
+!i10b 1
+R14
+R60
+R61
+!i113 1
+R17
+R18
+Eaxi_rdmatrix_16sto1m
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 659
+R0
+Z62 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_16Sto1M.vhd
+Z63 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_16Sto1M.vhd
+l0
+Z64 L40 1
+VjGlCo90SgK95B81mi[2H60
+!s100 ;1Y_LnZTAfJ2GN=IDg=aI2
+R12
+33
+R13
+!i10b 1
+R14
+Z65 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_16Sto1M.vhd|
+Z66 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_16Sto1M.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 20 axi_rdmatrix_16sto1m 0 22 jGlCo90SgK95B81mi[2H60
+!i122 659
+l442
+L335 745
+V7=QDfG6cFQQa]RB4GFaod0
+!s100 CY]4MT98V[P0gj<fk9Sh@3
+R12
+33
+R13
+!i10b 1
+R14
+R65
+R66
+!i113 1
+R17
+R18
+Eaxi_rdmatrix_4mto1s
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 666
+R0
+Z67 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S.vhd
+Z68 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S.vhd
+l0
+R39
+VJMF9oK]8^N:P`kdeKSoF80
+!s100 m^_739Vi4?;K=9]Q1zOQ83
+R12
+33
+R33
+!i10b 1
+R34
+Z69 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S.vhd|
+Z70 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 19 axi_rdmatrix_4mto1s 0 22 JMF9oK]8^N:P`kdeKSoF80
+!i122 666
+l435
+L256 1878
+V5DCNPA8iHO>TfG^g^oYnT0
+!s100 dRX]?UHNzVKnREmYUO:5L0
+R12
+33
+R33
+!i10b 1
+R34
+R69
+R70
+!i113 1
+R17
+R18
+Eaxi_rdmatrix_4mto1s_hgs_high
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 664
+R0
+Z71 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_high.vhd
+Z72 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_high.vhd
+l0
+R39
+VMT^TYZF_F6TJVZDk4VdTW3
+!s100 9hYE0lciU;[hU1?<zI@Aj3
+R12
+33
+R33
+!i10b 1
+R34
+Z73 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_high.vhd|
+Z74 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_high.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 28 axi_rdmatrix_4mto1s_hgs_high 0 22 MT^TYZF_F6TJVZDk4VdTW3
+!i122 664
+l435
+L256 1130
+Vgh?mEIk:>O8E]56Rj@of81
+!s100 <`;KQ_e?f8?TadScZB]n03
+R12
+33
+R33
+!i10b 1
+R34
+R73
+R74
+!i113 1
+R17
+R18
+Eaxi_rdmatrix_4mto1s_hgs_low
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 665
+R0
+Z75 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_low.vhd
+Z76 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_low.vhd
+l0
+R39
+Vek=Gl3[no`FVZiheKdCiA2
+!s100 A?E;Hk[`E=FczLhnh2:3K1
+R12
+33
+R33
+!i10b 1
+R34
+Z77 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_low.vhd|
+Z78 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_low.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 27 axi_rdmatrix_4mto1s_hgs_low 0 22 ek=Gl3[no`FVZiheKdCiA2
+!i122 665
+l436
+L256 1126
+V]@cXT[YAcCB2Cmk]4n[[W2
+!s100 IFzBCYMlgPMQXTBWYS4Fe0
+R12
+33
+R33
+!i10b 1
+R34
+R77
+R78
+!i113 1
+R17
+R18
+Eaxi_slave_stage
+R1
+R2
+R3
+R4
+Z79 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R5
+R6
+R7
+R8
+!i122 677
+R0
+Z80 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_slave_stage.vhd
+Z81 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_slave_stage.vhd
+l0
+R59
+VN8JRNVLLYVMe[z`N15hoF0
+!s100 P:3kYo26dAX=FQ9R[;Bb`2
+R12
+33
+R30
+!i10b 1
+Z82 !s108 1629546653.000000
+Z83 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_slave_stage.vhd|
+Z84 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_slave_stage.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R79
+R5
+R6
+R7
+R8
+DEx4 work 15 axi_slave_stage 0 22 N8JRNVLLYVMe[z`N15hoF0
+!i122 677
+l424
+L259 684
+VMGY?M764PC5N2K?c0Mm@l3
+!s100 dM6lmIm^^29g50=?8]CD@3
+R12
+33
+R30
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R17
+R18
+Eaxi_wa_arbiter
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 668
+R0
+Z85 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_arbiter.vhd
+Z86 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_arbiter.vhd
+l0
+R53
+Vb9_XM9BUn]nFhBjNClFik3
+!s100 >mgQoRkfj@Q5>WOHiKE@V3
+R12
+33
+R56
+!i10b 1
+Z87 !s108 1629546651.000000
+Z88 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_arbiter.vhd|
+Z89 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_arbiter.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 14 axi_wa_arbiter 0 22 b9_XM9BUn]nFhBjNClFik3
+!i122 668
+l132
+L89 606
+VTAnzIelZ_Z>ND5Z4Vl=`f0
+!s100 c`Z:f4kF?Ml2iQ:cOaf^f2
+R12
+33
+R56
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R17
+R18
+Eaxi_wa_channel
+R1
+R2
+R5
+R6
+R7
+R8
+!i122 672
+R0
+Z90 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_channel.vhd
+Z91 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_channel.vhd
+l0
+R53
+VU6kabAT^=8UhJHd:94K8X3
+!s100 MN5=WhIeh1kO=ScE8Skf?3
+R12
+33
+R56
+!i10b 1
+R87
+Z92 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_channel.vhd|
+Z93 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_channel.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R5
+R6
+R7
+R8
+DEx4 work 14 axi_wa_channel 0 22 U6kabAT^=8UhJHd:94K8X3
+!i122 672
+l948
+L244 1286
+VWfVT0^@=F7T621fC@CBF?1
+!s100 eKm?YFDKdW8XMK=zT[nSP3
+R12
+33
+R56
+!i10b 1
+R87
+R92
+R93
+!i113 1
+R17
+R18
+Eaxi_wd_channel
+R1
+R2
+R3
+R4
+R79
+R5
+R6
+R7
+R8
+!i122 673
+R0
+Z94 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wd_channel.vhd
+Z95 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wd_channel.vhd
+l0
+R64
+V7YEH]jAF;g^z1MfObO^cn0
+!s100 MXkM2W>=hmBYM^`0IU9850
+R12
+33
+R56
+!i10b 1
+R87
+Z96 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wd_channel.vhd|
+Z97 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wd_channel.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R79
+R5
+R6
+R7
+R8
+DEx4 work 14 axi_wd_channel 0 22 7YEH]jAF;g^z1MfObO^cn0
+!i122 673
+l288
+L217 456
+VAfK_gR1<o]>Ia;A4aY<Qb3
+!s100 abI4@DHJAi<f@P96[GLfc3
+R12
+33
+R56
+!i10b 1
+R87
+R96
+R97
+!i113 1
+R17
+R18
+Eaxi_wresp_channel
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 661
+R0
+Z98 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wresp_channel.vhd
+Z99 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wresp_channel.vhd
+l0
+R59
+V37hT8RBNF1=hkVi=HoP4a0
+!s100 K7Smi8h83mgAMSR_DnJdh3
+R12
+33
+R13
+!i10b 1
+R14
+Z100 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wresp_channel.vhd|
+Z101 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wresp_channel.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 17 axi_wresp_channel 0 22 37hT8RBNF1=hkVi=HoP4a0
+!i122 661
+l369
+L300 713
+V7bX9cECQ[_RGY8_<`ZGG:1
+!s100 ``EQbg8N3D>h0GRGo2K5N3
+R12
+33
+R13
+!i10b 1
+R14
+R100
+R101
+!i113 1
+R17
+R18
+Eaxi_wrmatrix_4mto1s
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 671
+R0
+Z102 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S.vhd
+Z103 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S.vhd
+l0
+R39
+VcgVg1jgcebLXo8d5`JVM:2
+!s100 fcea:SdafUNPA];49>nX@0
+R12
+33
+R56
+!i10b 1
+R87
+Z104 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S.vhd|
+Z105 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 19 axi_wrmatrix_4mto1s 0 22 cgVg1jgcebLXo8d5`JVM:2
+!i122 671
+l412
+L250 1736
+VCH:N5M45F3[I[b4^i=XWn2
+!s100 fTIJ[i3G`9deU<BbU`m3k1
+R12
+33
+R56
+!i10b 1
+R87
+R104
+R105
+!i113 1
+R17
+R18
+Eaxi_wrmatrix_4mto1s_hgs_high
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 669
+R0
+Z106 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_high.vhd
+Z107 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_high.vhd
+l0
+R64
+VfAF6>]ea0;7hW^3Z2RF9E2
+!s100 HdJX?LWSgnJ<OSzDEYW452
+R12
+33
+R56
+!i10b 1
+R87
+Z108 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_high.vhd|
+Z109 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_high.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 28 axi_wrmatrix_4mto1s_hgs_high 0 22 fAF6>]ea0;7hW^3Z2RF9E2
+!i122 669
+l413
+L251 983
+VH[dYEOC6TCRBNbM3`Mi9U3
+!s100 i=k9@ZFSAJUWa2KB]W]2L0
+R12
+33
+R56
+!i10b 1
+R87
+R108
+R109
+!i113 1
+R17
+R18
+Eaxi_wrmatrix_4mto1s_hgs_low
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 670
+R0
+Z110 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_low.vhd
+Z111 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_low.vhd
+l0
+R64
+VEV4lWYKo8MSgzO7K^AQ^Z3
+!s100 =`UU@e<g6i;AJlj3ljW>D1
+R12
+33
+R56
+!i10b 1
+R87
+Z112 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_low.vhd|
+Z113 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_low.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 27 axi_wrmatrix_4mto1s_hgs_low 0 22 EV4lWYKo8MSgzO7K^AQ^Z3
+!i122 670
+l413
+L251 985
+V8HFRN3JcoMRT[nK=dRB^<1
+!s100 9YABlDU[V8?<M^O6GKc1d3
+R12
+33
+R56
+!i10b 1
+R87
+R112
+R113
+!i113 1
+R17
+R18
+vcaxi4interconnect_Bin2Gray
+Z114 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z115 !s110 1629574788
+!i10b 1
+!s100 d0DmojM_PXg2]>YkHQZ^L2
+Z116 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ih3<Lh5[6XU2d<iXN9WOOg2
+S1
+Z117 dD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/simulation
+Z118 w1629402063
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/Bin2Gray.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/Bin2Gray.v
+!i122 684
+L0 23 21
+Z119 VDg1SIo80bB@j0V0VzS_@n1
+Z120 OW;L;2020.4;71
+r1
+!s85 0
+31
+Z121 !s108 1629574788.000000
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/Bin2Gray.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/Bin2Gray.v|
+!s101 -O0
+!i113 1
+Z122 o-sv -work presynth -O0
+R18
+ncaxi4interconnect_@bin2@gray
+vcaxi4interconnect_CDC_grayCodeCounter
+R114
+R115
+!i10b 1
+!s100 QM8JnL50@fd2Rl9H2W^Lz3
+R116
+IH3>JgzVMCzN9CPi?;OYW03
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_grayCodeCounter.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_grayCodeCounter.v
+!i122 685
+L0 21 71
+R119
+R120
+r1
+!s85 0
+31
+R121
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_grayCodeCounter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_grayCodeCounter.v|
+!s101 -O0
+!i113 1
+R122
+R18
+ncaxi4interconnect_@c@d@c_gray@code@counter
+vcaxi4interconnect_CDC_rdCtrl
+R114
+R115
+!i10b 1
+!s100 Jd7;Z=AOk9j5>LFz6fl4:2
+R116
+IENn5XM?n9W3>POg6lmdJ?2
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_rdCtrl.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_rdCtrl.v
+!i122 686
+L0 20 97
+R119
+R120
+r1
+!s85 0
+31
+R121
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_rdCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_rdCtrl.v|
+!s101 -O0
+!i113 1
+R122
+R18
+ncaxi4interconnect_@c@d@c_rd@ctrl
+vcaxi4interconnect_CDC_wrCtrl
+R114
+R115
+!i10b 1
+!s100 h5GBWNH[YZP1nl?7cC6Xg3
+R116
+I7<g3M@HNV8j]ni4b>_>Cl0
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_wrCtrl.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_wrCtrl.v
+!i122 687
+L0 21 97
+R119
+R120
+r1
+!s85 0
+31
+R121
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_wrCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_wrCtrl.v|
+!s101 -O0
+!i113 1
+R122
+R18
+ncaxi4interconnect_@c@d@c_wr@ctrl
+vCDC_FIFO
+R114
+R115
+!i10b 1
+!s100 [kYDm`S9ATA:3W?[C6A:W0
+R116
+ICZWanICbm:_=FKG`0Hj<z0
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_FIFO.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_FIFO.v
+!i122 688
+L0 22 255
+R119
+R120
+r1
+!s85 0
+31
+R121
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_FIFO.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CDC_FIFO.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@d@c_@f@i@f@o
+Ecoreahbltoaxi_ahbaccesscontrolhx
+Z123 w1628436741
+Z124 DPx8 synopsys 10 attributes 0 22 dc>JdEHRM@6GGENe5bZ?D1
+Z125 DPx4 ieee 14 std_logic_misc 0 22 dN]HY6l5ohPcZ:TaC@B;53
+R6
+R5
+R7
+R8
+!i122 644
+R0
+Z126 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AHBAccessControl.vhd
+Z127 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AHBAccessControl.vhd
+l0
+Z128 L32 1
+VhW>1]cfd:^OF10^k[zJiQ0
+!s100 =2zONnVo9RhUZ7BA`c^^?3
+R12
+33
+Z129 !s110 1629546647
+!i10b 1
+Z130 !s108 1629546647.000000
+Z131 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AHBAccessControl.vhd|
+Z132 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AHBAccessControl.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 32 coreahbltoaxi_ahbaccesscontrolhx 0 22 hW>1]cfd:^OF10^k[zJiQ0
+!i122 644
+l208
+L89 930
+Vb3J<Ad<jaQJof9DSczdJm2
+!s100 8W91F71M5Iba[o7A56[H_0
+R12
+33
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 1
+R17
+R18
+Ecoreahbltoaxi_axiaccesscontrolhx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 645
+R0
+Z133 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AXIAccessControl.vhd
+Z134 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AXIAccessControl.vhd
+l0
+Z135 L33 1
+Vm=B8?zoRQO=bMlE;PW@^R1
+!s100 H3k@733bbnk`?JkA5iz2X1
+R12
+33
+R129
+!i10b 1
+R130
+Z136 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AXIAccessControl.vhd|
+Z137 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_AXIAccessControl.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 32 coreahbltoaxi_axiaccesscontrolhx 0 22 m=B8?zoRQO=bMlE;PW@^R1
+!i122 645
+l338
+L111 1924
+VB`]@:f:_ABd79[mW;[IH62
+!s100 FFg1BmcgiBYPXo<fb=Vc03
+R12
+33
+R129
+!i10b 1
+R130
+R136
+R137
+!i113 1
+R17
+R18
+Ecoreahbltoaxi_rdch_ramhx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 646
+R0
+Z138 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_rdch_ram.vhd
+Z139 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_rdch_ram.vhd
+l0
+R135
+V<i3IhLSXOC]SIa>^JOKG[3
+!s100 NeNF3ehlfG;^ib<e>3zZR2
+R12
+33
+R129
+!i10b 1
+R130
+Z140 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_rdch_ram.vhd|
+Z141 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_rdch_ram.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 24 coreahbltoaxi_rdch_ramhx 0 22 <i3IhLSXOC]SIa>^JOKG[3
+!i122 646
+l88
+L60 59
+VZWgR5SSdS2n:[V3ogGjOW1
+!s100 MT5UJHQIPdcWebW8mQ;>o0
+R12
+33
+R129
+!i10b 1
+R130
+R140
+R141
+!i113 1
+R17
+R18
+Ecoreahbltoaxi_rdchannelfifohx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 647
+R0
+Z142 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_RDCHANNELFIFO.vhd
+Z143 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_RDCHANNELFIFO.vhd
+l0
+R135
+V5FZO3RAFOgM:4CD8j6Nfd2
+!s100 7ABk59cP?hfBV8SWLzkd;3
+R12
+33
+R129
+!i10b 1
+R130
+Z144 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_RDCHANNELFIFO.vhd|
+Z145 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_RDCHANNELFIFO.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 29 coreahbltoaxi_rdchannelfifohx 0 22 5FZO3RAFOgM:4CD8j6Nfd2
+!i122 647
+l186
+L59 288
+Vda:ZiME7^122W^MSdMo=O0
+!s100 3>coBE[dea?SS;jiOiY4c0
+R12
+33
+R129
+!i10b 1
+R130
+R144
+R145
+!i113 1
+R17
+R18
+Ecoreahbltoaxi_reset_synchx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 641
+R0
+Z146 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_reset_sync.vhd
+Z147 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_reset_sync.vhd
+l0
+R135
+Vi8mPT5FH`=DinMlm;Y8d[3
+!s100 nogI3X5@?Un_H;f^PVOLl0
+R12
+33
+Z148 !s110 1629546646
+!i10b 1
+Z149 !s108 1629546646.000000
+Z150 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_reset_sync.vhd|
+Z151 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_reset_sync.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 26 coreahbltoaxi_reset_synchx 0 22 i8mPT5FH`=DinMlm;Y8d[3
+!i122 641
+l50
+L40 30
+VKFz[HUOOD0T8BJDejea[X0
+!s100 1oJ;b`JTgl;MTeA?0>NbC3
+R12
+33
+R148
+!i10b 1
+R149
+R150
+R151
+!i113 1
+R17
+R18
+Ecoreahbltoaxi_wrch_ramhx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 648
+R0
+Z152 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_wrch_ram.vhd
+Z153 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_wrch_ram.vhd
+l0
+Z154 L34 1
+VYUj;46iUPQ3Mi=U]D3e=^1
+!s100 c9SGHC9n^e<]@N]>J@ai92
+R12
+33
+Z155 !s110 1629546648
+!i10b 1
+R130
+Z156 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_wrch_ram.vhd|
+Z157 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_wrch_ram.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 24 coreahbltoaxi_wrch_ramhx 0 22 YUj;46iUPQ3Mi=U]D3e=^1
+!i122 648
+l91
+L63 83
+VOA:OWjMfU9ZDTbJ]^dzM>2
+!s100 cZOMKh;BnZ?EGo:cg0KAT1
+R12
+33
+R155
+!i10b 1
+R130
+R156
+R157
+!i113 1
+R17
+R18
+Ecoreahbltoaxi_wrchannelfifohx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 649
+R0
+Z158 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_WRCHANNELFIFO.vhd
+Z159 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_WRCHANNELFIFO.vhd
+l0
+R128
+VHPoRT;Y@mmlGBJXcf5SgO3
+!s100 fcnjiRMfDkB>fABo`[cUW3
+R12
+33
+R155
+!i10b 1
+R44
+Z160 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_WRCHANNELFIFO.vhd|
+Z161 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/CoreAHBLtoAXI_WRCHANNELFIFO.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 29 coreahbltoaxi_wrchannelfifohx 0 22 HPoRT;Y@mmlGBJXcf5SgO3
+!i122 649
+l197
+L59 345
+V4XWem[P[_?2eOANDTX^8C0
+!s100 ZSUgE>@j70GHAf0kLPbGF2
+R12
+33
+R155
+!i10b 1
+R44
+R160
+R161
+!i113 1
+R17
+R18
+Ecoreresetp
+Z162 w1628423935
+R79
+R7
+R8
+!i122 708
+R117
+Z163 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+Z164 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+l0
+Z165 L27 1
+VIgc:WlM:`ebDzMT]LZzK]3
+!s100 YLjeP@<^Y3b;=bmggndLD0
+R12
+33
+Z166 !s110 1629574791
+!i10b 1
+Z167 !s108 1629574791.000000
+Z168 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd|
+Z169 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd|
+!i113 1
+R17
+R18
+Artl
+R79
+R7
+R8
+DEx4 work 10 coreresetp 0 22 Igc:WlM:`ebDzMT]LZzK]3
+!i122 708
+l470
+L195 1503
+Vc0Mj^5h36OK0Yi2Hd77eb1
+!s100 [T8^0JV<MYVmgglWm8L>O1
+R12
+33
+R166
+!i10b 1
+R167
+R168
+R169
+!i113 1
+R17
+R18
+Ecoreresetp_pcie_hotreset
+R162
+R79
+R7
+R8
+!i122 707
+R117
+Z170 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+Z171 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+l0
+R53
+V5nR81a8XPodLl5SAGFULh3
+!s100 XF0Tgl^VT9oYCFQ<V77WM0
+R12
+33
+R166
+!i10b 1
+R167
+Z172 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
+Z173 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
+!i113 1
+R17
+R18
+Artl
+R79
+R7
+R8
+DEx4 work 24 coreresetp_pcie_hotreset 0 22 5nR81a8XPodLl5SAGFULh3
+!i122 707
+l91
+L47 186
+Vi[KWUJgmUi3X<94]m3SM>2
+!s100 `VhK9LD<d^d41F`l1z7eG3
+R12
+33
+R166
+!i10b 1
+R167
+R172
+R173
+!i113 1
+R17
+R18
+vCORESDR_AHB_BURST_16DQ
+R114
+Z174 !s110 1629574790
+!i10b 1
+!s100 gZm;=L:F;K=V1`f>d6C6R0
+R116
+I9gfVfj1memaW`zIja2bh11
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_16dq.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_16dq.v
+!i122 700
+L0 18 4184
+R119
+R120
+r1
+!s85 0
+31
+Z175 !s108 1629574790.000000
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_16dq.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_16dq.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@o@r@e@s@d@r_@a@h@b_@b@u@r@s@t_16@d@q
+vCORESDR_AHB_BURST_32DQ
+R114
+R174
+!i10b 1
+!s100 mzmQ]BCZBWhHROEL?iCc10
+R116
+IL^dD@1f^GP?e:<]i5@B>J3
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_32dq.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_32dq.v
+!i122 698
+L0 18 2243
+R119
+R120
+r1
+!s85 0
+31
+R175
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_32dq.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_burst_32dq.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@o@r@e@s@d@r_@a@h@b_@b@u@r@s@t_32@d@q
+vCORESDR_AHB_C1
+R114
+R174
+!i10b 1
+!s100 THc:WTmo1bh`BP@ZDSQ[Z2
+R116
+IlYz2h:3RnLj:0S>85KYn61
+S1
+R117
+Z176 w1629554016
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1.v
+!i122 702
+L0 46 203
+R119
+R120
+r1
+!s85 0
+31
+R175
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@o@r@e@s@d@r_@a@h@b_@c1
+vCORESDR_AHB_C1_CORESDR_AHB_C1_0_CORESDR_AHB
+R114
+R174
+!i10b 1
+!s100 fGbQK_cY4D5L]K=OFaZD[0
+R116
+I]6Gnj>8m8O3h3OmBRmYk72
+S1
+R117
+R176
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/core/coresdrahb_coresdr_ahb.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/core/coresdrahb_coresdr_ahb.v
+!i122 701
+L0 18 175
+R119
+R120
+r1
+!s85 0
+31
+R175
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/core/coresdrahb_coresdr_ahb.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/CORESDR_AHB_C1/CORESDR_AHB_C1_0/rtl/vlog/core/coresdrahb_coresdr_ahb.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@o@r@e@s@d@r_@a@h@b_@c1_@c@o@r@e@s@d@r_@a@h@b_@c1_0_@c@o@r@e@s@d@r_@a@h@b
+vCORESDR_AHB_SINGLE
+R114
+R174
+!i10b 1
+!s100 7W2P3QJKlmGJ@eN?c?NO:1
+R116
+IlDQZ:<BDY4N`SAzf[z:_[3
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_single.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_single.v
+!i122 699
+L0 22 1310
+R119
+R120
+r1
+!s85 0
+31
+R175
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_single.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr_ahb_single.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@o@r@e@s@d@r_@a@h@b_@s@i@n@g@l@e
+Ecoresdr_axi_c0
+Z177 w1629544005
+R7
+R8
+!i122 635
+R0
+Z178 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/CORESDR_AXI_C0/CORESDR_AXI_C0.vhd
+Z179 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/CORESDR_AXI_C0/CORESDR_AXI_C0.vhd
+l0
+L48 1
+V9BXH[^oPzfm9oKOelYZ[C2
+!s100 BPZ?Ph86GzkClkHOmHDZE2
+R12
+33
+R148
+!i10b 1
+R149
+Z180 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/CORESDR_AXI_C0/CORESDR_AXI_C0.vhd|
+Z181 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/CORESDR_AXI_C0/CORESDR_AXI_C0.vhd|
+!i113 1
+R17
+R18
+Artl
+R7
+R8
+DEx4 work 14 coresdr_axi_c0 0 22 9BXH[^oPzfm9oKOelYZ[C2
+!i122 635
+l230
+L104 251
+V>`<_TPHLz[8?f@YhiBQ[i3
+!s100 kfN_Egf;z]G:Ti;JDb1bV3
+R12
+33
+R148
+!i10b 1
+R149
+R180
+R181
+!i113 1
+R17
+R18
+vCORESYNC_PULSE_CDC
+R114
+Z182 !s110 1629574789
+!i10b 1
+!s100 i`Qfn7SNDUcf=AUK<OkWF0
+R116
+IFhLh_>@W^8XeACK9gknbg0
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CoreSync_pulse_cdc.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CoreSync_pulse_cdc.v
+!i122 693
+L0 29 88
+R119
+R120
+r1
+!s85 0
+31
+Z183 !s108 1629574789.000000
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CoreSync_pulse_cdc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/CoreSync_pulse_cdc.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@c@o@r@e@s@y@n@c_@p@u@l@s@e_@c@d@c
+Edpsram_c0
+Z184 w1628960842
+R7
+R8
+!i122 637
+R0
+Z185 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0.vhd
+Z186 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0.vhd
+l0
+L73 1
+VIJW[a5LWeg_RlJ_okMBgU3
+!s100 =KeeMi749aUiN`WTTb`Fi3
+R12
+33
+R148
+!i10b 1
+R149
+Z187 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0.vhd|
+Z188 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0.vhd|
+!i113 1
+R17
+R18
+Artl
+R7
+R8
+DEx4 work 9 dpsram_c0 0 22 IJW[a5LWeg_RlJ_okMBgU3
+!i122 637
+l129
+L94 69
+VHTbJQLO_bMGo8I^Q0LjJ02
+!s100 z0V]0P>gO^i]PRfjFj_5g0
+R12
+33
+R148
+!i10b 1
+R149
+R187
+R188
+!i113 1
+R17
+R18
+Edpsram_c0_dpsram_c0_0_dpsram
+R184
+R7
+R8
+!i122 636
+R0
+Z189 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0_0/DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd
+Z190 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0_0/DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd
+l0
+L8 1
+VUM<NoN=MR`YdKS4RY2z1P3
+!s100 U8>Cb]G3Z7=_PDT4C7V[K0
+R12
+33
+R148
+!i10b 1
+R149
+Z191 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0_0/DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd|
+Z192 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/DPSRAM_C0/DPSRAM_C0_0/DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd|
+!i113 1
+R17
+R18
+Adef_arch
+R7
+R8
+DEx4 work 28 dpsram_c0_dpsram_c0_0_dpsram 0 22 UM<NoN=MR`YdKS4RY2z1P3
+!i122 636
+l103
+L25 567
+Vm4dHF@9_4NY6Z3>O[_;ab2
+!s100 oz5TGMVc60h;B3^1lS`6;2
+R12
+33
+R148
+!i10b 1
+R149
+R191
+R192
+!i113 1
+R17
+R18
+Eled_strip_ctrl
+Z193 w1628899932
+R79
+R7
+R8
+!i122 447
+R0
+Z194 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/LED_STRIP_CTRL.vhd
+Z195 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/LED_STRIP_CTRL.vhd
+l0
+Z196 L26 1
+Vm4SS9?K]Ce48:<CV;Hdi12
+!s100 ?n7]jHi`XZ4^6a;XOfi`e1
+R12
+33
+Z197 !s110 1628929459
+!i10b 1
+Z198 !s108 1628929459.000000
+Z199 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/LED_STRIP_CTRL.vhd|
+Z200 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/LED_STRIP_CTRL.vhd|
+!i113 1
+R17
+R18
+Aarchitecture_led_strip_ctrl
+R79
+R7
+R8
+DEx4 work 14 led_strip_ctrl 0 22 m4SS9?K]Ce48:<CV;Hdi12
+!i122 447
+l156
+L62 332
+V5:IPNGHU^YlLla@B19g262
+!s100 Z7P8;`=2>8BVZ5YMLYD<>3
+R12
+33
+R197
+!i10b 1
+R198
+R199
+R200
+!i113 1
+R17
+R18
+Eneopixel_ctrl
+Z201 w1629055856
+R79
+R7
+R8
+!i122 638
+R0
+Z202 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/NEOPIXEL_CTRL.vhd
+Z203 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/NEOPIXEL_CTRL.vhd
+l0
+R196
+Vz14O2EOY?D?1z_eE7czh@0
+!s100 PP9kFU`YZ]`0Kkm=KSZO_0
+R12
+33
+R148
+!i10b 1
+R149
+Z204 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/NEOPIXEL_CTRL.vhd|
+Z205 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/hdl/NEOPIXEL_CTRL.vhd|
+!i113 1
+R17
+R18
+Aarchitecture_neopixel_ctrl
+R79
+R7
+R8
+Z206 DEx4 work 13 neopixel_ctrl 0 22 z14O2EOY?D?1z_eE7czh@0
+!i122 638
+l198
+L62 375
+VEIWzaO_iNbo]iE2]`1V<30
+!s100 zAHV?e5<YXAIDlVffNm3_2
+R12
+33
+R148
+!i10b 1
+R149
+R204
+R205
+!i113 1
+R17
+R18
+vpulse_cdc
+R114
+R182
+!i10b 1
+!s100 ;N^HcTPGKMBAGYk3@^Kjk2
+R116
+I17l:JGHO>Zjc5ETaoa4jf0
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc.v
+!i122 690
+L0 31 27
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vpulse_cdc_sync
+R114
+R182
+!i10b 1
+!s100 zWdSQEGe[b_P0T>E<fiFG0
+R116
+ILkd^]`]]Ag=CdRnT`1o@A3
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc_sync.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc_sync.v
+!i122 689
+L0 31 25
+R119
+R120
+r1
+!s85 0
+31
+R121
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc_sync.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_cdc_sync.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vpulse_gen
+R114
+R182
+!i10b 1
+!s100 6hP2U@H<4Rze4OGe;hS[H0
+R116
+I730GklVagZTmbQe54a9;:3
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen.v
+!i122 692
+L0 31 23
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vpulse_gen_sync
+R114
+R182
+!i10b 1
+!s100 mPF9JeG`Ji<bo5`]>OA>?3
+R116
+IBS;[EYY^>PZ7Ff9Pb1;O:0
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen_sync.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen_sync.v
+!i122 691
+L0 31 20
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen_sync.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/pulse_gen_sync.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vsdr_CORESDR
+R114
+R182
+!i10b 1
+!s100 z5bQ0l7:F4VQGXT44?^:@1
+R116
+I0_o2[:Y:OJHXzj07;iR?L3
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr.v
+!i122 697
+L0 20 231
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_coresdr.v|
+!s101 -O0
+!i113 1
+R122
+R18
+nsdr_@c@o@r@e@s@d@r
+vsdr_fastinit
+R114
+R182
+!i10b 1
+!s100 CWO`8IPi[C<JP0TmC;Ie;3
+R116
+IKL>V<:Q4>WSj:c`O6HdJW2
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastinit.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastinit.v
+!i122 696
+L0 24 363
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastinit.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastinit.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vsdr_fastsdram
+R114
+R182
+!i10b 1
+!s100 a:bXLo0:B8j2z_AL@B1JC3
+R116
+ICj`DWoX;UG_@QolU5Hg;50
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastsdram.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastsdram.v
+!i122 695
+L0 22 1457
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastsdram.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_fastsdram.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vsdr_openbank
+R114
+R182
+!i10b 1
+!s100 zFZB7b7a6_k7e>G?X@3?[3
+R116
+I3OfS23NEhGaZ`;jJX@7RV3
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_openbank.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_openbank.v
+!i122 694
+L0 24 479
+R119
+R120
+r1
+!s85 0
+31
+R183
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_openbank.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/coresdrahb_openbank.v|
+!s101 -O0
+!i113 1
+R122
+R18
+vSDRAHB_RAM_BLOCK
+R114
+R115
+!i10b 1
+!s100 Rfhiih84RF0bibG8z1f:X2
+R116
+I`FoMaVW9;o`[QBSlPTi751
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK.v
+!i122 683
+L0 2 36
+R119
+R120
+r1
+!s85 0
+31
+R121
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@s@d@r@a@h@b_@r@a@m_@b@l@o@c@k
+vSDRAHB_RAM_BLOCK_ECC
+R114
+R115
+!i10b 1
+!s100 9gOKjBVZA[=^BTG9^oR;U2
+R116
+IRkLFJlYQLQYXPGgX^bhn@1
+S1
+R117
+R118
+8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK_ECC.v
+FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK_ECC.v
+!i122 682
+L0 2 34
+R119
+R120
+r1
+!s85 0
+31
+!s108 1629574787.000000
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK_ECC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CORESDR_AHB/4.4.107/rtl/vlog/core/RAM_BLOCK_ECC.v|
+!s101 -O0
+!i113 1
+R122
+R18
+n@s@d@r@a@h@b_@r@a@m_@b@l@o@c@k_@e@c@c
+Esib_saber_tb
+Z207 w1628961080
+R7
+R8
+!i122 681
+R0
+Z208 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SIB_SABER_TB.vhd
+Z209 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SIB_SABER_TB.vhd
+l0
+Z210 L23 1
+VCjRF3kAHP=56_moFIIS@K0
+!s100 _V@;lWQmo2AA>k;DH6`bo2
+R12
+33
+Z211 !s110 1629546655
+!i10b 1
+Z212 !s108 1629546655.000000
+Z213 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SIB_SABER_TB.vhd|
+Z214 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SIB_SABER_TB.vhd|
+!i113 1
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 12 sib_saber_tb 0 22 CjRF3kAHP=56_moFIIS@K0
+!i122 681
+l63
+L26 87
+Vma5CaNIC=M;ic=giP9nJj2
+!s100 EU[cg?@78lki4jTMl=dPK2
+R12
+33
+R211
+!i10b 1
+R212
+R213
+R214
+!i113 1
+R17
+R18
+Esid_bridge
+Z215 w1629559909
+R6
+R5
+R7
+R8
+!i122 703
+R117
+Z216 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/hdl/SID_BRIDGE.vhd
+Z217 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/hdl/SID_BRIDGE.vhd
+l0
+R165
+VDT4S:Wf<O<glY]DY<UC=C1
+!s100 n1TF@EXcmRd1BNm^QMf:L2
+R12
+33
+R174
+!i10b 1
+R175
+Z218 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/hdl/SID_BRIDGE.vhd|
+Z219 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/hdl/SID_BRIDGE.vhd|
+!i113 1
+R17
+R18
+Aarchitecture_sid_bridge
+R6
+R5
+R7
+R8
+Z220 DEx4 work 10 sid_bridge 0 22 DT4S:Wf<O<glY]DY<UC=C1
+!i122 703
+l140
+L58 257
+V^VgAjR7fc[bFbjfbjg8S71
+!s100 ldaC?d13QdYE;D4cRd9QL2
+R12
+33
+R174
+!i10b 1
+R175
+R218
+R219
+!i113 1
+R17
+R18
+Esid_player
+Z221 w1629573866
+R7
+R8
+!i122 710
+R117
+Z222 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER/SID_PLAYER.vhd
+Z223 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER/SID_PLAYER.vhd
+l0
+Z224 L17 1
+VXI[gLgaz^nIl_OgA]IG]l3
+!s100 RP^IY[CKBgfZ`9OD;?<I43
+R12
+33
+Z225 !s110 1629574793
+!i10b 1
+Z226 !s108 1629574793.000000
+Z227 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER/SID_PLAYER.vhd|
+!s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER/SID_PLAYER.vhd|
+!i113 1
+R17
+R18
+Artl
+R6
+R5
+R220
+R7
+R8
+DEx4 work 10 sid_player 0 22 XI[gLgaz^nIl_OgA]IG]l3
+!i122 710
+l252
+L50 392
+V@bcAaG<dS3@IQ]2F1L[]m0
+!s100 5hkW><K^0NB5:1Wl@K6>42
+R12
+33
+R225
+!i10b 1
+R226
+R227
+Z228 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER/SID_PLAYER.vhd|
+!i113 1
+R17
+R18
+Esid_player_sb
+Z229 w1629574299
+Z230 DPx15 coreahblite_lib 10 components 0 22 9OK?X^GTk]TlS`B]oAZj;3
+R7
+R8
+!i122 709
+R117
+Z231 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd
+Z232 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd
+l0
+Z233 L20 1
+VHD8<iSzOOlkcjDSg[_hYG3
+!s100 ]IKbldW@6dQK][L23h2X@0
+R12
+33
+R225
+!i10b 1
+R226
+Z234 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd|
+Z235 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd|
+!i113 1
+R17
+R18
+Artl
+Z236 DPx15 coreahblite_lib 15 coreahblite_pkg 0 22 M9OjhE]c6kD<IQc2I^HEK0
+R79
+Z237 DEx15 coreahblite_lib 11 coreahblite 0 22 6L=UDQbOKE?L@[H[:0S0S2
+R230
+R7
+R8
+DEx4 work 13 sid_player_sb 0 22 HD8<iSzOOlkcjDSg[_hYG3
+!i122 709
+l416
+L75 1021
+V9QI3gX2>WYbTeCPa0BZ:N1
+!s100 gP7EOUSS[^_0Q]XgT158W2
+R12
+33
+R225
+!i10b 1
+R226
+R234
+R235
+!i113 1
+R17
+R18
+Esid_player_sb_ccc_0_fccc
+Z238 w1629574297
+R7
+R8
+!i122 704
+R117
+Z239 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/CCC_0/SID_PLAYER_sb_CCC_0_FCCC.vhd
+Z240 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/CCC_0/SID_PLAYER_sb_CCC_0_FCCC.vhd
+l0
+L8 1
+VCQ<RC5]Ll5>I;cZXSTAfB2
+!s100 Z;]Un3ZGHA:lEh6LYKWb]0
+R12
+33
+R166
+!i10b 1
+R175
+Z241 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/CCC_0/SID_PLAYER_sb_CCC_0_FCCC.vhd|
+Z242 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/CCC_0/SID_PLAYER_sb_CCC_0_FCCC.vhd|
+!i113 1
+R17
+R18
+Adef_arch
+R7
+R8
+DEx4 work 24 sid_player_sb_ccc_0_fccc 0 22 CQ<RC5]Ll5>I;cZXSTAfB2
+!i122 704
+l94
+Z243 L17 123
+VcgJdZ_cX]zgSS>;hUzobZ1
+!s100 E2Re75A<_7Go81L<TMoFY3
+R12
+33
+R166
+!i10b 1
+R175
+R241
+R242
+!i113 1
+R17
+R18
+Esid_player_sb_fabosc_0_osc
+R229
+R7
+R8
+!i122 705
+R117
+Z244 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/FABOSC_0/SID_PLAYER_sb_FABOSC_0_OSC.vhd
+Z245 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/FABOSC_0/SID_PLAYER_sb_FABOSC_0_OSC.vhd
+l0
+L8 1
+V:P3@=SH0Qzo7nBWed`YMZ3
+!s100 K3ozRzcd8W[Mgi5^cA<iz3
+R12
+33
+R166
+!i10b 1
+R167
+Z246 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/FABOSC_0/SID_PLAYER_sb_FABOSC_0_OSC.vhd|
+Z247 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/FABOSC_0/SID_PLAYER_sb_FABOSC_0_OSC.vhd|
+!i113 1
+R17
+R18
+Adef_arch
+R7
+R8
+DEx4 work 26 sid_player_sb_fabosc_0_osc 0 22 :P3@=SH0Qzo7nBWed`YMZ3
+!i122 705
+l45
+Z248 L21 43
+V8^27U0bBS=J^n`in;OeU73
+!s100 C4L[fh8aF[amoW5h[N=`A1
+R12
+33
+R166
+!i10b 1
+R167
+R246
+R247
+!i113 1
+R17
+R18
+Esid_player_sb_mss
+Z249 w1629574295
+R7
+R8
+!i122 706
+R117
+Z250 8D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS.vhd
+Z251 FD:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS.vhd
+l0
+R224
+VCHKc6L8OWaK;^?5m73`gR2
+!s100 zQDQZ3:Bd=C[E][SA23a^0
+R12
+33
+R166
+!i10b 1
+R167
+Z252 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS.vhd|
+Z253 !s107 D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS.vhd|
+!i113 1
+R17
+R18
+Artl
+R7
+R8
+DEx4 work 17 sid_player_sb_mss 0 22 CHKc6L8OWaK;^?5m73`gR2
+!i122 706
+l687
+L61 1242
+V^VSd5Me<Z4FB2SW3;MnAQ0
+!s100 n<[eXFl4?=5aUe[f[Yj5E2
+R12
+33
+R166
+!i10b 1
+R167
+R252
+R253
+!i113 1
+R17
+R18
+Esid_saber
+Z254 w1629545112
+R7
+R8
+!i122 680
+R0
+Z255 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER/SID_SABER.vhd
+Z256 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER/SID_SABER.vhd
+l0
+R224
+VWha^oCR2ZTY1zRG<^IB0[2
+!s100 kiiiFz1]BBdm4S_ZdDbY<2
+R12
+33
+R211
+!i10b 1
+R212
+Z257 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER/SID_SABER.vhd|
+Z258 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER/SID_SABER.vhd|
+!i113 1
+R17
+R18
+Artl
+R6
+R5
+R220
+R79
+R206
+R7
+R8
+DEx4 work 9 sid_saber 0 22 Wha^oCR2ZTY1zRG<^IB0[2
+!i122 680
+l405
+L56 674
+V5;O:lRQDO?IPID6_FGAV22
+!s100 @ehLdVAG?Y7>VMK5H3oOO3
+R12
+33
+R211
+!i10b 1
+R212
+R257
+R258
+!i113 1
+R17
+R18
+Esid_saber_sb
+Z259 w1629543889
+R230
+R7
+R8
+!i122 679
+R0
+Z260 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/SID_SABER_sb.vhd
+Z261 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/SID_SABER_sb.vhd
+l0
+R233
+V2n5e_gRM8=]25l[35c`OF1
+!s100 2mlXNzFeCzHUYCUoF58G`1
+R12
+33
+R211
+!i10b 1
+R212
+Z262 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/SID_SABER_sb.vhd|
+Z263 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/SID_SABER_sb.vhd|
+!i113 1
+R17
+R18
+Artl
+R236
+R79
+R237
+R230
+R7
+R8
+DEx4 work 12 sid_saber_sb 0 22 2n5e_gRM8=]25l[35c`OF1
+!i122 679
+l1623
+L115 3309
+V43Of:360L00R62KPPoHXD1
+!s100 @Tn^f:LNmcQM`UKA[KiiY2
+R12
+33
+R211
+!i10b 1
+R212
+R262
+R263
+!i113 1
+R17
+R18
+Esid_saber_sb_ccc_0_fccc
+Z264 w1629543887
+R7
+R8
+!i122 640
+R0
+Z265 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/CCC_0/SID_SABER_sb_CCC_0_FCCC.vhd
+Z266 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/CCC_0/SID_SABER_sb_CCC_0_FCCC.vhd
+l0
+L8 1
+V`37LIAE<Ad`hSChBQcPaE2
+!s100 @T@B3^UMPo9]?39_RfD4Q2
+R12
+33
+R148
+!i10b 1
+R149
+Z267 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/CCC_0/SID_SABER_sb_CCC_0_FCCC.vhd|
+Z268 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/CCC_0/SID_SABER_sb_CCC_0_FCCC.vhd|
+!i113 1
+R17
+R18
+Adef_arch
+R7
+R8
+DEx4 work 23 sid_saber_sb_ccc_0_fccc 0 22 `37LIAE<Ad`hSChBQcPaE2
+!i122 640
+l94
+R243
+V8O[U13AjST11DGj=GNdVF2
+!s100 TgY]8LU<5n17_<Y`KhUKU3
+R12
+33
+R148
+!i10b 1
+R149
+R267
+R268
+!i113 1
+R17
+R18
+Esid_saber_sb_coreahbltoaxi_0_coreahbltoaxi
+Z269 w1629543888
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 650
+R0
+Z270 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAHBLTOAXI_0/rtl/vhdl/core/CoreAHBLtoAXI.vhd
+Z271 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAHBLTOAXI_0/rtl/vhdl/core/CoreAHBLtoAXI.vhd
+l0
+L31 1
+V8U4e0eg3QPk72^g`fR<7B1
+!s100 BQ^P__j`4YHnKEE=bT3ZX2
+R12
+33
+R155
+!i10b 1
+R44
+Z272 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAHBLTOAXI_0/rtl/vhdl/core/CoreAHBLtoAXI.vhd|
+Z273 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAHBLTOAXI_0/rtl/vhdl/core/CoreAHBLtoAXI.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 42 sid_saber_sb_coreahbltoaxi_0_coreahbltoaxi 0 22 8U4e0eg3QPk72^g`fR<7B1
+!i122 650
+l431
+L105 586
+V`0SZTdUQoA5bI=8ZE3m]J2
+!s100 VS::dnG8OJoT0MGYzMJWF2
+R12
+33
+R155
+!i10b 1
+R44
+R272
+R273
+!i113 1
+R17
+R18
+Esid_saber_sb_coreaxi_0_coreaxi
+R269
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 678
+R0
+Z274 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAXI_0/rtl/vhdl/core/coreaxi.vhd
+Z275 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAXI_0/rtl/vhdl/core/coreaxi.vhd
+l0
+R27
+V;FF`AFG?T[RF;hSze^b3l1
+!s100 l>^TKN2^Ao551U`UV[@4^2
+R12
+33
+R30
+!i10b 1
+R82
+Z276 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAXI_0/rtl/vhdl/core/coreaxi.vhd|
+Z277 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/COREAXI_0/rtl/vhdl/core/coreaxi.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 30 sid_saber_sb_coreaxi_0_coreaxi 0 22 ;FF`AFG?T[RF;hSze^b3l1
+!i122 678
+l5001
+L1155 9229
+VcFf1dMkig?aP[=hR^JOW60
+!s100 b[[HbSPmlH<a<>e[f=SQh3
+R12
+33
+R30
+!i10b 1
+R82
+R276
+R277
+!i113 1
+R17
+R18
+Esid_saber_sb_fabosc_0_osc
+R259
+R7
+R8
+!i122 651
+R0
+Z278 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/FABOSC_0/SID_SABER_sb_FABOSC_0_OSC.vhd
+Z279 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/FABOSC_0/SID_SABER_sb_FABOSC_0_OSC.vhd
+l0
+L8 1
+V@2YM3zoWjBgOzY468kmQA2
+!s100 h<Fm5e0?UUFbR`7EUTk5<0
+R12
+33
+R155
+!i10b 1
+R44
+Z280 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/FABOSC_0/SID_SABER_sb_FABOSC_0_OSC.vhd|
+Z281 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb/FABOSC_0/SID_SABER_sb_FABOSC_0_OSC.vhd|
+!i113 1
+R17
+R18
+Adef_arch
+R7
+R8
+DEx4 work 25 sid_saber_sb_fabosc_0_osc 0 22 @2YM3zoWjBgOzY468kmQA2
+!i122 651
+l45
+R248
+V469eHojbH`^45NNY<X;dm2
+!s100 8P9AQmb<`XE7<a<[`ao>Q2
+R12
+33
+R155
+!i10b 1
+R44
+R280
+R281
+!i113 1
+R17
+R18
+Esid_saber_sb_mss
+Z282 w1629543885
+R7
+R8
+!i122 652
+R0
+Z283 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb_MSS/SID_SABER_sb_MSS.vhd
+Z284 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb_MSS/SID_SABER_sb_MSS.vhd
+l0
+R224
+VdRWSijUbmdi<aoM8R7]ii3
+!s100 H1UG52E27CoWT]]Jg9=Qe3
+R12
+33
+R155
+!i10b 1
+R44
+Z285 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb_MSS/SID_SABER_sb_MSS.vhd|
+Z286 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/work/SID_SABER_sb_MSS/SID_SABER_sb_MSS.vhd|
+!i113 1
+R17
+R18
+Artl
+R7
+R8
+DEx4 work 16 sid_saber_sb_mss 0 22 dRWSijUbmdi<aoM8R7]ii3
+!i122 652
+l712
+L65 1284
+VKWOQiz7fGB_2eJcKBGG:B0
+!s100 jTZb4WzORaC^V6H<GnoMj0
+R12
+33
+R155
+!i10b 1
+R44
+R285
+R286
+!i113 1
+R17
+R18
+Esid_saber_tb
+Z287 w1628616110
+R7
+R8
+!i122 456
+R0
+Z288 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd
+Z289 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd
+l0
+R210
+V0L1LF07fmkzZ1a^SQf2I63
+!s100 m<5Si4=>LKHH[gMW5h[:d0
+R12
+33
+Z290 !s110 1628929462
+!i10b 1
+Z291 !s108 1628929462.000000
+Z292 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd|
+Z293 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd|
+!i113 1
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 12 sid_saber_tb 0 22 0L1LF07fmkzZ1a^SQf2I63
+!i122 456
+l57
+L26 75
+VkO5ZO4El1FMYgX:`hdK_a2
+!s100 O@kn@kce>QAD^P`enlSBP0
+R12
+33
+R290
+!i10b 1
+R291
+R292
+R293
+!i113 1
+R17
+R18
+Esynchronizer_ahbtoaxihx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 642
+R0
+Z294 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AHBtoAXI.vhd
+Z295 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AHBtoAXI.vhd
+l0
+R135
+VGz:H_g`^BO6QW91QWOQ[_0
+!s100 Dzha]O<>>L3D>6S3IM0=d3
+R12
+33
+R129
+!i10b 1
+R130
+Z296 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AHBtoAXI.vhd|
+Z297 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AHBtoAXI.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 23 synchronizer_ahbtoaxihx 0 22 Gz:H_g`^BO6QW91QWOQ[_0
+!i122 642
+l66
+L51 45
+V4_^jF3OYOU`7<;THe[4SX1
+!s100 LH5T2bYjRi[kkG9WDU1><2
+R12
+33
+R129
+!i10b 1
+R130
+R296
+R297
+!i113 1
+R17
+R18
+Esynchronizer_axitoahbhx
+R123
+R124
+R125
+R6
+R5
+R7
+R8
+!i122 643
+R0
+Z298 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AXItoAHB.vhd
+Z299 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AXItoAHB.vhd
+l0
+R154
+V`iaE7P?C5W[@fRBdOPMAJ1
+!s100 MOX7o^O0n81bJAAP1<>3>0
+R12
+33
+R129
+!i10b 1
+R130
+Z300 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AXItoAHB.vhd|
+Z301 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAHBLTOAXI/2.1.101/rtl/vhdl/core/Synchronizer_AXItoAHB.vhd|
+!i113 1
+R17
+R18
+Atranslated
+R124
+R125
+R6
+R5
+R7
+R8
+DEx4 work 23 synchronizer_axitoahbhx 0 22 `iaE7P?C5W[@fRBdOPMAJ1
+!i122 643
+l70
+L50 98
+VLznhK5nm^Vm[ZASF5[dZ>3
+!s100 NiHO4UD5KV66ozWgf>c=03
+R12
+33
+R129
+!i10b 1
+R130
+R300
+R301
+!i113 1
+R17
+R18
+Pxhdl_misc
+R7
+R8
+!i122 656
+R1
+R0
+Z302 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_misc.vhd
+Z303 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_misc.vhd
+l0
+R135
+VIWmdY>IzW7H60TO3DFTho3
+!s100 ]]ZgQb`Vm>U;7X6@3CAE60
+R12
+33
+b1
+R13
+!i10b 1
+R14
+Z304 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_misc.vhd|
+Z305 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_misc.vhd|
+!i113 1
+R17
+R18
+Bbody
+R3
+R7
+R8
+!i122 656
+l0
+L53 1
+V7GULTg]4zobgDR6loR`g;1
+!s100 M9f<AM=7V3UfVKX8U^YeI2
+R12
+33
+R13
+!i10b 1
+R14
+R304
+R305
+!i113 1
+R17
+R18
+Pxhdl_std_logic
+R6
+R5
+R7
+R8
+!i122 657
+R1
+R0
+Z306 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_std_logic.vhd
+Z307 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_std_logic.vhd
+l0
+L43 1
+VX6ilE6m:Sjn@Tlh6R6:Al0
+!s100 Dej7`8UA595B3]4IOdJjz1
+R12
+33
+b1
+R13
+!i10b 1
+R14
+Z308 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_std_logic.vhd|
+Z309 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_std_logic.vhd|
+!i113 1
+R17
+R18
+Bbody
+R4
+R6
+R5
+R7
+R8
+!i122 657
+l0
+L136 1
+V<R_AGM>m[e]]3[b5C?L^80
+!s100 U?aj]Z^JnD:@D5BBK:7Hf2
+R12
+33
+R13
+!i10b 1
+R14
+R308
+R309
+!i113 1
+R17
+R18

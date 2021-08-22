@@ -1,0 +1,90 @@
+set_io {USER_BTN}    -pinname B19 -fixed yes -iostd LVCMOS33
+set_io {USER_LED}    -pinname G17 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+
+set_io {LED[0]}      -pinname E18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[1]}      -pinname R17 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[2]}      -pinname R18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[3]}      -pinname T18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[4]}      -pinname U18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[5]}      -pinname R16 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[6]}      -pinname E1  -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+set_io {LED[7]}      -pinname D2  -fixed yes -iostd LVCMOS33 -OUT_DRIVE 16
+
+# C20   
+# V20   
+# V19   
+# T19   
+# U19   
+# T20   G16 - MMUART_1_TXD
+# P20   F18 - MMUART_1_RXD
+# R20   A19 - I2C_0_SCL
+# R15   A20 - I2C_0_SDA
+# N20   N15 - SPI_0_SDI
+# M19   P15 - SPI_0_CLK
+# M17   L20 - SPI_0_SDO
+# H17   L19 - SPI_0_SS0
+# G18   H19 - SPI_0_SS1
+
+set_io {sid_addr[0]} -pinname C20  -fixed yes -iostd LVCMOS33 
+set_io {sid_addr[1]} -pinname V20  -fixed yes -iostd LVCMOS33 
+set_io {sid_addr[2]} -pinname V19  -fixed yes -iostd LVCMOS33 
+set_io {sid_addr[3]} -pinname T19  -fixed yes -iostd LVCMOS33 
+set_io {sid_addr[4]} -pinname U19  -fixed yes -iostd LVCMOS33 
+
+set_io {sid_data[0]} -pinname T20  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[1]} -pinname P20  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[2]} -pinname R20  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[3]} -pinname R15  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[4]} -pinname N20  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[5]} -pinname M19  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[6]} -pinname M17  -fixed yes -iostd LVCMOS33 -direction inout
+set_io {sid_data[7]} -pinname H17  -fixed yes -iostd LVCMOS33 -direction inout
+
+set_io {sid_rst_n}   -pinname G18  -fixed yes -iostd LVCMOS33 
+set_io {sid_cs_n}    -pinname H19  -fixed yes -iostd LVCMOS33 
+set_io {sid_rw}      -pinname L19  -fixed yes -iostd LVCMOS33 
+set_io {sid_clk}     -pinname L20  -fixed yes -iostd LVCMOS33
+
+#
+# SDRAM
+#
+set_io {BA[0]}      -pinname W10    -fixed yes  -DIRECTION OUTPUT
+set_io {BA[1]}      -pinname V12    -fixed yes  -DIRECTION OUTPUT
+set_io CAS_N        -pinname Y12    -fixed yes  -DIRECTION OUTPUT
+set_io CKE          -pinname Y13    -fixed yes  -DIRECTION OUTPUT
+set_io {CS_N[0]}    -pinname R13    -fixed yes  -DIRECTION OUTPUT
+set_io {DQM[0]}     -pinname E5     -fixed yes  -DIRECTION OUTPUT
+set_io {DQM[1]}     -pinname F7     -fixed yes  -DIRECTION OUTPUT
+set_io {DQ[0]}      -pinname F1     -fixed yes  -DIRECTION INOUT
+set_io {DQ[1]}      -pinname G1     -fixed yes  -DIRECTION INOUT
+set_io {DQ[2]}      -pinname E2     -fixed yes  -DIRECTION INOUT
+set_io {DQ[3]}      -pinname G2     -fixed yes  -DIRECTION INOUT
+set_io {DQ[4]}      -pinname E3     -fixed yes  -DIRECTION INOUT
+set_io {DQ[5]}      -pinname G3     -fixed yes  -DIRECTION INOUT
+set_io {DQ[6]}      -pinname F3     -fixed yes  -DIRECTION INOUT
+set_io {DQ[7]}      -pinname F4     -fixed yes  -DIRECTION INOUT
+set_io {DQ[8]}      -pinname J7     -fixed yes  -DIRECTION INOUT
+set_io {DQ[9]}      -pinname G6     -fixed yes  -DIRECTION INOUT
+set_io {DQ[10]}     -pinname F6     -fixed yes  -DIRECTION INOUT
+set_io {DQ[11]}     -pinname H5     -fixed yes  -DIRECTION INOUT
+set_io {DQ[12]}     -pinname H6     -fixed yes  -DIRECTION INOUT
+set_io {DQ[13]}     -pinname H4     -fixed yes  -DIRECTION INOUT
+set_io {DQ[14]}     -pinname F5     -fixed yes  -DIRECTION INOUT
+set_io {DQ[15]}     -pinname G4     -fixed yes  -DIRECTION INOUT
+set_io RAS_N        -pinname U13    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[0]}      -pinname U11    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[1]}      -pinname U12    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[2]}      -pinname V11    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[3]}      -pinname Y10    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[4]}      -pinname W15    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[5]}      -pinname U14    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[6]}      -pinname Y15    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[7]}      -pinname W14    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[8]}      -pinname T15    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[9]}      -pinname W13    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[10]}     -pinname T13    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[11]}     -pinname V14    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[12]}     -pinname V15    -fixed yes  -DIRECTION OUTPUT
+set_io {SA[13]}     -pinname Y16    -fixed yes  -DIRECTION OUTPUT
+set_io SDRCLK       -pinname T14    -fixed yes  -DIRECTION OUTPUT
+set_io WE_N         -pinname R12    -fixed yes  -DIRECTION OUTPUT

@@ -1,0 +1,50 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)
+
+Date      :  Sat Aug 21 21:31:40 2021
+Project   :  D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER
+Component :  SID_PLAYER_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/CCC_0/SID_PLAYER_sb_CCC_0_FCCC.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/FABOSC_0/SID_PLAYER_sb_FABOSC_0_OSC.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb/SID_PLAYER_sb.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/SID_PLAYER_sb_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/CM3_compile_bfm.tcl
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/user.bfm
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/test.bfm
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER_sb_MSS/ENVM.cfg
+

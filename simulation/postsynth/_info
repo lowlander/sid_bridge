@@ -1,0 +1,723 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/simulation
+Ecoreahblite
+Z1 w1628901527
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/synthesis/SID_SABER.vhd
+Z5 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/synthesis/SID_SABER.vhd
+l0
+L8657 1
+VWeBz5;gkob`cACJ6d1SBU1
+!s100 F?K55Ofm2>@oEfk=B6cG?2
+Z6 OW;C;2020.4;71
+33
+Z7 !s110 1628901536
+!i10b 1
+Z8 !s108 1628901535.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/synthesis/SID_SABER.vhd|
+Z10 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/synthesis/SID_SABER.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+Z13 DEx4 work 22 coreahblite_matrix4x16 0 22 4lca4mXIaPXC[n5:6TkE[3
+R2
+R3
+Z14 DEx4 work 11 coreahblite 0 22 WeBz5;gkob`cACJ6d1SBU1
+!i122 2
+l8769
+L8706 368
+VY=ac9<jdU3NkZdOQY>W6l0
+!s100 dPMPiW?<N0zgfT`JXeNm71
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecoreahblite_defaultslavesm_0
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L7058 1
+VckIDNS`[W1^:oL>C0z7782
+!s100 d6JAPV0Ai1d^gU;KZF=GG3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+Z15 DEx4 work 28 coreahblite_defaultslavesm_0 0 22 ckIDNS`[W1^:oL>C0z7782
+!i122 2
+l7125
+L7076 99
+VYBi9A8;a4Ko`WSc?:W5OW2
+!s100 78612JCbOJjL:n7kl8LLz0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecoreahblite_masterstage_2_1_0_3_0
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L7181 1
+Vm^TK<Fa_dCHeh<e0mOnQL3
+!s100 ]H`gT@O;:;85QG>gziaPP0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R15
+R2
+R3
+Z16 DEx4 work 33 coreahblite_masterstage_2_1_0_3_0 0 22 m^TK<Fa_dCHeh<e0mOnQL3
+!i122 2
+l7325
+L7219 984
+VKl2OFMOAn`]gcYTdj:=n<3
+!s100 VczACARc4Z][=nWJ@lC]G2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecoreahblite_matrix4x16
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L8209 1
+V4lca4mXIaPXC[n5:6TkE[3
+!s100 G9BEgjT4=K@`?BJk0Nol40
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R16
+Z17 DEx4 work 24 coreahblite_slavestage_2 0 22 :LX9<=`6hYcAdIR[cQXXj3
+R2
+R3
+R13
+!i122 2
+l8336
+L8258 393
+VVMH7U>@`R4nA7C?b9:e4B1
+!s100 ^4=1JVBj19XdMYKKS9IeL0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecoreahblite_slavearbiter_0
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L6597 1
+V2WKjB@0Idz_N<I[=;caVM2
+!s100 ;gR2SJ0m5ALeUkHnUVS>T2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+Z18 DEx4 work 26 coreahblite_slavearbiter_0 0 22 2WKjB@0Idz_N<I[=;caVM2
+!i122 2
+l6660
+L6608 115
+VA3Z?U_JUKQd]enNzRH`Wn3
+!s100 ijCNILEkR`Jld2UfCW1X52
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecoreahblite_slavestage_2
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L6729 1
+V:LX9<=`6hYcAdIR[cQXXj3
+!s100 [IQZ=Bh?Rn@]P]^9MF:AD3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R18
+R2
+R3
+R17
+!i122 2
+l6801
+L6753 299
+V:E^o44:L`633mFMZJDacA2
+!s100 9m>eS]@PgCY1`iUnoDmHP1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecoreresetp
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L6430 1
+VG`jJoWKNHaf_D]FCamBW[0
+!s100 T2kXl4gPX<>ZdAebGLa[<1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+Z19 DEx4 work 10 coreresetp 0 22 G`jJoWKNHaf_D]FCamBW[0
+!i122 2
+l6508
+L6441 150
+V3]RP30ISLBmXXMG6nS3Hl2
+!s100 IQ4FHW86cIPV5MGQbo:Q<3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edpsram_c0
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L6138 1
+VVoIBRd`Y;ddK`5=b67Bfo3
+!s100 8V?5?PIgND6zM6<j?I7B@1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+Z20 DEx4 work 28 dpsram_c0_dpsram_c0_0_dpsram 0 22 CJGVjbdoSBT7:5eezOCM41
+R2
+R3
+Z21 DEx4 work 9 dpsram_c0 0 22 VoIBRd`Y;ddK`5=b67Bfo3
+!i122 2
+l6180
+L6152 221
+VfTKg0bY=E>geb>DV<?_nR0
+!s100 TX2_R^hoW;HDB6T2eV^Y23
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edpsram_c0_dpsram_c0_0_dpsram
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L5167 1
+VCJGVjbdoSBT7:5eezOCM41
+!s100 nOZR0FoC[VIV;dl3C5DjX2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R20
+!i122 2
+l5272
+L5181 951
+V=cO4eE<P_0ZZf7mJiO1<a0
+!s100 a>D1cX8g9DS6J9mOgSE611
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eled_strip_ctrl
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L105 1
+V=HD8g8Di6bVXQb@jkbcU]1
+!s100 aKO8]cShQFI]@b3Z=:nE51
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+Z22 DEx4 work 14 led_strip_ctrl 0 22 =HD8g8Di6bVXQb@jkbcU]1
+!i122 2
+l507
+L158 5003
+VTVHJamLO=Dk_nQKbZEJnW0
+!s100 ZYCPSKeRh_YYdSe<=^47m3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_bridge
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L8 1
+V6FHU;;STE21XTfAjOBM^H3
+!s100 Y2V;]?aIXOeh^0Yla1?Zj2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+Z23 DEx4 work 10 sid_bridge 0 22 6FHU;;STE21XTfAjOBM^H3
+!i122 2
+l40
+L15 84
+VQghPJi3=ilYYS^K;z<0jm2
+!s100 2D7^:V0^Ihe;19Y]c>HnW0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_saber
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L11773 1
+VQPmFiR`DV_dQPB=iP:YoT1
+!s100 >@4EW`O8>H?2mH5cGW6@O0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+Z24 DEx4 work 12 sid_saber_sb 0 22 hKMc3]]BK>gF?ljm]DlLU3
+R21
+R22
+R23
+R2
+R3
+DEx4 work 9 sid_saber 0 22 QPmFiR`DV_dQPB=iP:YoT1
+!i122 2
+l12010
+L11791 1133
+Vm`;LT5?LTSQW>;To<Vi^91
+!s100 DJN8kDgG4e7VC1L>bbYZn0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_saber_sb
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L11010 1
+VhKMc3]]BK>gF?ljm]DlLU3
+!s100 39M@]<QPL?>7z>a0MXNb62
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+Z25 DEx4 work 16 sid_saber_sb_mss 0 22 98aNJ@B9OMW=kI__e7N3Y1
+Z26 DEx4 work 23 sid_saber_sb_ccc_0_fccc 0 22 <A[5`^KL;bbMjQ[C]K;8J0
+R14
+R19
+Z27 DEx4 work 25 sid_saber_sb_fabosc_0_osc 0 22 bCB6>]?@zN2:@SS8ZQ8dX3
+R2
+R3
+R24
+!i122 2
+l11212
+L11054 713
+VE93mmUG5>VK7jf`AIj^DB2
+!s100 _W?D_^CUiin>SXd`<3_JG0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_saber_sb_ccc_0_fccc
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L9080 1
+V<A[5`^KL;bbMjQ[C]K;8J0
+!s100 KNC`ZB32VL9[OzIZoRM[S1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R26
+!i122 2
+l9167
+L9089 124
+Vl@YTHn7LMlT^=TKdXJeBf1
+!s100 Z7O;_VY:B8V7ZJN14YiFE1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_saber_sb_fabosc_0_osc
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L6379 1
+VbCB6>]?@zN2:@SS8ZQ8dX3
+!s100 KzMCC31XUaanFL88a^lLM3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R27
+!i122 2
+l6407
+L6386 38
+VP99k]H[6i68WL>9FC3PFK2
+!s100 mjXiobz9;[eb[9[EmSneh0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_saber_sb_mss
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L9219 1
+V98aNJ@B9OMW=kI__e7N3Y1
+!s100 cY[5fK5c8[Pce?nN91_:=3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R25
+!i122 2
+l9951
+L9254 1750
+VC_RZ;@fT_COo>GegaX7?Y0
+!s100 OcIcID?I[Wbk^5`FAS1Je1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esid_saber_tb
+Z28 w1628616110
+R2
+R3
+!i122 3
+R0
+Z29 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd
+Z30 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd
+l0
+L23 1
+VSV7=GljioT_3zMKJiS]BY0
+!s100 m<5Si4=>LKHH[gMW5h[:d0
+R6
+33
+Z31 !s110 1628901539
+!i10b 1
+Z32 !s108 1628901539.000000
+Z33 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd|
+Z34 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/stimulus/SID_SABER_TB.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+Z35 DEx4 work 12 sid_saber_tb 0 22 SV7=GljioT_3zMKJiS]BY0
+!i122 3
+l57
+Z36 L26 75
+Z37 V]AD1hnH8PD>JIPc?i`U3F2
+Z38 !s100 O@kn@kce>QAD^P`enlSBP0
+R6
+33
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12

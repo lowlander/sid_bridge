@@ -1,0 +1,130 @@
+#===========================================================
+#
+# Syntax:
+# -------
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap FLASH    0x00000000;
+memmap SSRAM_0  0x08000000;
+memmap SSRAM_1  0x0A000000;
+memmap SSRAM_2  0x0C000000;
+memmap SSRAM_3  0x0E000000;
+
+procedure main
+    call mem_test
+return
+
+
+procedure mem_test
+    # Set debug level (controls verbosity of simulation trace)
+    debug 3;
+
+    #-----------------------------------------------------------
+    # Test FLASH access
+    #-----------------------------------------------------------
+    print "============================================";
+    print "FLASH test";
+    print "============================================";
+
+    write     w FLASH   0x00    0xdeadbeef;
+    write     w FLASH   0x04    0x45454545;
+    write     w FLASH   0x08    0x12345678;
+    readcheck w FLASH   0x08    0x12345678;
+    read      w FLASH   0x00;
+    read      w FLASH   0x04;
+    read      w FLASH   0x08;
+    write     w FLASH   0x10    0xabcd1234;
+    write     w FLASH   0x50    0x3d681acf;
+    write     w FLASH   0x54    0x82db74a9;
+    write     w FLASH   0x58    0xe81d93be;
+    readcheck w FLASH   0x50    0x3d681acf;
+    readcheck w FLASH   0x54    0x82db74a9;
+    readcheck w FLASH   0x58    0xe81d93be;
+    write     w FLASH   0x50    0x3d681acf;
+    write     w FLASH   0x54    0x82db74a9;
+    write     w FLASH   0x58    0xe81d93be;
+
+    #-----------------------------------------------------------
+    # Test SSRAM access
+    #-----------------------------------------------------------
+     #-----------------------------------------------------------
+    # Test SSRAM access
+    #-----------------------------------------------------------
+    print "============================================";
+    print "SRAM test";
+    print "============================================";
+   
+    write     w SSRAM_0   0x00    0x12345678;
+    write     w SSRAM_0   0x04    0x3456789a;
+    write     w SSRAM_0   0x08    0x56789abc;
+
+    readcheck w SSRAM_0   0x00    0x12345678;
+    readcheck w SSRAM_0   0x04    0x3456789a;
+    readcheck w SSRAM_0   0x08    0x56789abc;
+
+    write     h SSRAM_0   0x00    0x4321;
+    write     h SSRAM_0   0x02    0x2211;
+    readcheck h SSRAM_0   0x00    0x4321;
+    readcheck h SSRAM_0   0x02    0x2211;
+
+    write     b SSRAM_0   0x00    0x21;
+    write     b SSRAM_0   0x01    0x43;
+    write     b SSRAM_0   0x02    0x65;
+    write     b SSRAM_0   0x03    0x87;
+    readcheck b SSRAM_0   0x00    0x21;
+    readcheck b SSRAM_0   0x01    0x43;
+    readcheck b SSRAM_0   0x02    0x65;
+    readcheck b SSRAM_0   0x03    0x87;
+
+    write     w SSRAM_0   0x00    0x87654321;
+    write     w SSRAM_0   0x04    0x44332211;
+    write     w SSRAM_0   0x08    0x33333333;
+    readcheck w SSRAM_0   0x00    0x87654321;
+    readcheck w SSRAM_0   0x04    0x44332211;
+    readcheck w SSRAM_0   0x08    0x33333333;
+
+    write     b SSRAM_0   0x24    0x41;
+    write     b SSRAM_0   0x3c    0xa5;
+    write     b SSRAM_0   0x28    0xcd;
+    readcheck b SSRAM_0   0x3c    0xa5;
+    readcheck b SSRAM_0   0x24    0x41;
+    readcheck b SSRAM_0   0x28    0xcd;
+
+    write     b SSRAM_0   0x42    0xae;
+    write     b SSRAM_0   0x43    0x67;
+    write     b SSRAM_0   0x4a    0x14;
+    readcheck b SSRAM_0   0x42    0xae;
+    readcheck b SSRAM_0   0x43    0x67;
+    readcheck b SSRAM_0   0x4a    0x14;
+
+    write     w SSRAM_0   0x50    0x3d681acf;
+    write     w SSRAM_0   0x54    0x82db74a9;
+    write     w SSRAM_0   0x58    0xe81d93be;
+    readcheck w SSRAM_0   0x50    0x3d681acf;
+    readcheck w SSRAM_0   0x54    0x82db74a9;
+    readcheck w SSRAM_0   0x58    0xe81d93be;
+
+    write     h SSRAM_0   0x00    0x368c;
+    write     h SSRAM_0   0x02    0x8dba;
+    write     h SSRAM_0   0x04    0xe1db;
+    write     h SSRAM_0   0x06    0x1111;
+ 
+    readcheck h SSRAM_0   0x00    0x368c;
+    readcheck h SSRAM_0   0x02    0x8dba;
+    readcheck h SSRAM_0   0x04    0xe1db;
+    readcheck h SSRAM_0   0x06    0x1111;
+
+return

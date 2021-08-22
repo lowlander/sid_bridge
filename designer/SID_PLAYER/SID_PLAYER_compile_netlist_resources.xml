@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)</text>
+<text>Date: Sun Aug 22 16:31:29 2021
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>400 VF</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>3.3V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 3.3V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>Yes</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>SID_PLAYER</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\synthesis\SID_PLAYER.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>1458</cell>
+ <cell>12084</cell>
+ <cell>12.07</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>962</cell>
+ <cell>12084</cell>
+ <cell>7.96</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>585</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>69</cell>
+ <cell>195</cell>
+ <cell>35.38</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>69</cell>
+ <cell>195</cell>
+ <cell>35.38</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>97</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>4</cell>
+ <cell>22</cell>
+ <cell>18.18</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>0</cell>
+ <cell>21</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>22</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>3</cell>
+ <cell>8</cell>
+ <cell>37.50</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+ <cell>50.00</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>1314</cell>
+ <cell>818</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>144</cell>
+ <cell>144</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>1458</cell>
+ <cell>962</cell>
+</row>
+</table>
+<section><name>MSS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Cortex-M3*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eNVM (256KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>TIMER*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>CAN</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>I2C</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>UART</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>USB</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MAC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the MSS</text>
+<text></text>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>8</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>43</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>24</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS33</cell>
+ <cell> 3.30v</cell>
+ <cell> N/A</cell>
+ <cell> 2</cell>
+ <cell> 43</cell>
+ <cell> 24</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>832</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : SDRCLK_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SID_PLAYER_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>634</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : AND2_0_Y_1_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: AND2_0_RNIKOS1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>58</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : SID_PLAYER_sb_0/MSS_HPMS_READY_int</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SID_PLAYER_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIUCRC/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>66</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : AND2_0_Y_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: AND2_0</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_slavestage_0_hwdata10</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/slavestage_0/masterDataInProg[0]</cell>
+</row>
+<row>
+ <cell>51</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/un1_command_0_sqmuxa_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m198</cell>
+</row>
+<row>
+ <cell>50</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/command_0_sqmuxa_453</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m202</cell>
+</row>
+<row>
+ <cell>49</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0_CORESDR_AHB_C1_0_genblk1_CoreSDR_0_state_ahb[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/state_ahb_Z[1]</cell>
+</row>
+<row>
+ <cell>46</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_N_3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_m2</cell>
+</row>
+<row>
+ <cell>45</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[3]</cell>
+</row>
+<row>
+ <cell>45</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[0]</cell>
+</row>
+<row>
+ <cell>43</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_masterstage_0_masterRegAddrSel</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>66</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : AND2_0_Y_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: AND2_0</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_slavestage_0_hwdata10</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/slavestage_0/masterDataInProg[0]</cell>
+</row>
+<row>
+ <cell>51</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/un1_command_0_sqmuxa_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m198</cell>
+</row>
+<row>
+ <cell>50</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/command_0_sqmuxa_453</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m202</cell>
+</row>
+<row>
+ <cell>49</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0_CORESDR_AHB_C1_0_genblk1_CoreSDR_0_state_ahb[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/state_ahb_Z[1]</cell>
+</row>
+<row>
+ <cell>46</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_N_3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_m2</cell>
+</row>
+<row>
+ <cell>45</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[3]</cell>
+</row>
+<row>
+ <cell>45</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[0]</cell>
+</row>
+<row>
+ <cell>43</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_masterstage_0_masterRegAddrSel</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel</cell>
+</row>
+</table>
+</doc>

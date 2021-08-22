@@ -1,0 +1,286 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)</p>
+        <p>Date: Sun Aug 22 16:32:08 2021
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[2] </td>
+                <td>(220, 54)</td>
+                <td>SID_PLAYER_sb_0/CCC_0/GL0_INST/U0_YNn</td>
+                <td>832</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[1] </td>
+                <td>(219, 54)</td>
+                <td>AND2_0_RNIKOS1/U0_YNn</td>
+                <td>634</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[3] </td>
+                <td>(221, 54)</td>
+                <td>SID_PLAYER_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIUCRC/U0_YNn_GSouth</td>
+                <td>58</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <p>(none)</p>
+        <h2>Fabric to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>AND2_0:Y</td>
+                <td>(365, 45)</td>
+                <td>GB[1] </td>
+                <td>AND2_0_Y_1</td>
+                <td>ROUTED</td>
+                <td>63</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SID_PLAYER_sb_0/CORERESETP_0/MSS_HPMS_READY_int:Q</td>
+                <td>(330, 58)</td>
+                <td>GB[3] </td>
+                <td>SID_PLAYER_sb_0/CORERESETP_0/MSS_HPMS_READY_int_0</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th>Pin Swapped for Back Annotation Only</th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>SID_PLAYER_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</td>
+                <td>CCC-NE1 (390, 92)</td>
+                <td>GL0 =&gt; GL2</td>
+                <td>GB[2] </td>
+                <td>SID_PLAYER_sb_0/CCC_0/GL0_net</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC Input Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To (Pin Swapped for Back Annotation Only) </th>
+                <th> CCC Location </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>SID_PLAYER_sb_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</td>
+                <td>(396, 92)</td>
+                <td>SID_PLAYER_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ</td>
+                <td>CCC-NE1 (390, 92)</td>
+                <td>SID_PLAYER_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> RGB Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[2] </td>
+                <td>(220, 54)</td>
+                <td>SID_PLAYER_sb_0/CCC_0/GL0_INST/U0_YNn</td>
+                <td>832</td>
+                <td>1</td>
+                <td>(218, 57)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(218, 60)</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(218, 63)</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(218, 66)</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(218, 102)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[1] </td>
+                <td>(219, 54)</td>
+                <td>AND2_0_RNIKOS1/U0_YNn</td>
+                <td>634</td>
+                <td/>
+                <td>(219, 63)</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[3] </td>
+                <td>(221, 54)</td>
+                <td>SID_PLAYER_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIUCRC/U0_YNn_GSouth</td>
+                <td>58</td>
+                <td>1</td>
+                <td>(218, 30)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(218, 33)</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(218, 36)</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(218, 39)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(218, 42)</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(218, 45)</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <p/>
+    </body>
+</html>

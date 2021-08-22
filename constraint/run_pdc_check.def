@@ -1,0 +1,8 @@
+DESIGN=SID_PLAYER
+DESDIR=D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER
+TARGET_DIR=D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=vf400
+SPEED=STD
+PDC_FILE=D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\constraint\io\sid_saber.pdc,,

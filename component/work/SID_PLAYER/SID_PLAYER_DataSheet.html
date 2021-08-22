@@ -1,0 +1,600 @@
+<html>
+    <head>
+        <style>
+
+            html
+            {
+            background-color:darkgray;
+            }
+
+            body
+            {
+            font-family:arial;
+            font-size: 11pt;
+            text-align:center;
+            }
+
+
+            th
+            {
+            background-color: #F0F0F0;
+            }
+
+            table.cores
+            {
+            background-color: #F0F0F0;
+            border-color: #B0B0B0;
+            border-style:solid;
+            border-width:1px;
+            }
+
+            table.cores td
+            {
+            vertical-align:top;
+            }
+
+            table.regs,
+            table.ios
+            {
+            border-color: #B0B0B0;
+            border-style:solid;
+            border-width:1px;
+            border-spacing:0px;
+            border-collapse:collapse;
+            width=75%;
+            font-family:couriernew;
+            font-size: 11pt;
+            }
+
+            table.regs th
+            table.ios th
+            {
+            border-color: #B0B0B0;
+            border-width:1px;
+            color: darkslategray;
+            font-weight:bold;
+            }
+
+
+            table.ios td
+            {
+            text-align:center;
+            }
+
+
+            table.params
+            {
+            border-color: #D0D0D0;
+            border-style:solid;
+            border-width:0px;
+            border-spacing:0px;
+            border-collapse:collapse;
+            }
+
+
+            table.params th
+            {
+            border-color: #D0D0D0;
+            border-width:1px;
+            color: black;
+            font-weight:bold;
+            }
+
+            table.params td
+            {
+            text-align:center;
+            }
+
+            b.params-name
+            {
+            color: #505050   ;
+
+            }
+
+
+            div.header
+            {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            color:#003399;
+            background-color: #D0D0D0;
+            width=100%;
+            font-family:arial;
+            font-size:14pt;
+            font-weight: bold;
+            text-align: center;
+            }
+
+            div.title
+            {
+            padding-top: 30px;
+            margin: auto;
+            color:#D0D0D0;
+            background-color:#003399 ;
+
+            text-align: center;
+            width: 1000px;
+            padding-left:30px;
+            padding-right:30px;
+            }
+
+            div.dsheet
+            {
+            width: 1000px;
+            margin: auto;
+            text-align: left
+
+            color:#003399;
+            background-color: white;
+
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left:30px;
+            padding-right:30px;
+            }
+
+            div.content
+            {
+            padding-top: 10px;
+            padding-left:10px;
+            padding-right:10px;
+
+            text-align: left;
+            font-size: 13pt;
+            font-weight: normal;
+            }
+
+            div.copyright
+            {
+            text-align:right;
+            font-size:9pt;
+            font-style:italic;
+            font-weight:normal;
+            }
+
+            div.links
+            {
+            text-align:left;
+            }
+
+            b
+            {
+            color:darkslategray
+            }
+
+            hr
+            {
+            width=100%;
+            }
+
+            .instances
+            {
+            font-size:14pt;
+            text-align:left;
+            }
+
+            .toplinks
+            {
+            font-size:10pt;
+            text-align:left;
+            }
+
+            .register-details
+            {
+            text-indent:20px;
+            }
+
+            .mmrange
+            {
+            text-indent:10px;
+            font-size:11pt;
+            text-align: left;
+            padding-bottom: 20px;
+
+            }
+
+            .regwidth
+            {
+            text-indent:24pt;
+            font-size:11pt;
+            text-align: left;
+            padding-bottom: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <a name="top"/>
+        <div>
+            <div class="title">
+                <h1>
+                Data Sheet: SID_PLAYER</h1>
+            </div>
+        </div>
+        <div class="dsheet">
+            <div>
+                <div class="header">Project Settings</div>
+                <div class="content">
+                    <table border="0" cellspacing="4">
+                        <tr>
+                            <td>
+                                <b>FAM: </b>
+                            </td>
+                            <td>SmartFusion2</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Die: </b>
+                            </td>
+                            <td>M2S010</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Package: </b>
+                            </td>
+                            <td>400 VF</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Speed Grade: </b>
+                            </td>
+                            <td>STD</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Voltage: </b>
+                            </td>
+                            <td>1.2</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>HDL: </b>
+                            </td>
+                            <td>VHDL</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Project Description: </b>
+                            </td>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Location: </b>
+                            </td>
+                            <td>D:/Clients/AlfheimSystems/SID_PLAYER/FPGA/SID_PLAYER/component/work/SID_PLAYER</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>State (Time): </b>
+                            </td>
+                            <td>GENERATED ( Sun Aug 22 16:30:05 2021 )</td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+            </div>
+            <div>
+                <div class="header">Table of Contents</div>
+                <div class="content">
+                    <a href="#generated_files">Generated Files</a>
+                    <br/>
+                    <a href="#ios">IO's</a>
+                    <br/>
+                    <a href="#cores">Hardware Instances</a>
+                    <br/>
+                    <a href="#firmware_cores">Firmware</a>
+                    <br/>
+                    <a href="#memmap">Memory Map</a>
+                </div>
+            </div>
+            <div>
+                <p>
+                    <a name="generated_files"/>
+                    <div class="header">Generated Files</div>
+                </p>
+                <div class="content"/>
+                <a href="#top">top of page</a>
+            </div>
+            <div>
+                <p>
+                    <a name="ios"/>
+                    <div class="header">IO's</div>
+                </p>
+                <i>No IO's </i>
+                <br/>
+                <br/>
+                <a href="#top">top of page</a>
+            </div>
+            <br/>
+            <div>
+                <a name="cores"/>
+                <div class="header">
+                            Cores
+                        </div>
+                <br/>
+                <i>No Instances</i>
+                <br/>
+                <br/>
+                <a href="#top">top of page</a>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <p>
+                    <a name="firmware_cores"/>
+                    <div class="header">Firmware</div>
+                </p>
+                <br/>
+                <i>No Firmware Generated.  Design may not contain any processor subsystems, or firmware have not been downloaded to your vault</i>
+                <br/>
+                <br/>
+                <a href="#top">top of page</a>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <a name="memmap"/>
+                <div class="header">
+                            Memory Map
+                        </div>
+                <div class="content">The SmartDesign SID_PLAYER contains the following Initiators under its hierarchy</div>
+                <div>
+                    <ul>
+                        <li>
+                            <div class="content">
+                                <a href="#SID_PLAYER_sb_0/ SID_PLAYER_sb_MSS_0/ CM3 Memory Map">SID_PLAYER_sb_0/ SID_PLAYER_sb_MSS_0/ CM3</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="content">
+                        <div class="toplinks">
+                            <a href="#top">top of page</a>
+                        </div>
+                    </div>
+                    <br/>
+                    <hr/>
+                    <div class="content">
+                        <h2>
+                            <a name="SID_PLAYER_sb_0/ SID_PLAYER_sb_MSS_0/ CM3 Memory Map">SID_PLAYER_sb_0/ SID_PLAYER_sb_MSS_0/ CM3</a>
+                        </h2>
+                        <table class="regs" border="1" cellspace="0" cellpadding="10" align="center">
+                            <tr bgcolor="#aaaacc">
+                                <th rowspan="1">Peripheral</th>
+                                <th colspan="1">Offset Address</th>
+                                <th colspan="1">Range  </th>
+                                <th colspan="1">High Address  </th>
+                                <th colspan="1">DRC</th>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>DDR_0_SPACE_3</b>
+                                </th>
+                                <td align="center">0xD000_0000 </td>
+                                <td align="center">256MB</td>
+                                <td align="center"> 0xDFFF_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>DDR_0_SPACE_2</b>
+                                </th>
+                                <td align="center">0xC000_0000 </td>
+                                <td align="center">256MB</td>
+                                <td align="center"> 0xCFFF_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>DDR_0_SPACE_1</b>
+                                </th>
+                                <td align="center">0xB000_0000 </td>
+                                <td align="center">256MB</td>
+                                <td align="center"> 0xBFFF_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>DDR_0_SPACE_0</b>
+                                </th>
+                                <td align="center">0xA000_0000 </td>
+                                <td align="center">256MB</td>
+                                <td align="center"> 0xAFFF_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>AHB2ENVM1_REGISTERS</b>
+                                </th>
+                                <td align="center">0x600C_0000 </td>
+                                <td align="center">256KB</td>
+                                <td align="center"> 0x600F_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>AHB2ENVM0_REGISTERS</b>
+                                </th>
+                                <td align="center">0x6008_0000 </td>
+                                <td align="center">256KB</td>
+                                <td align="center"> 0x600B_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>ENTIRE_ENVM</b>
+                                </th>
+                                <td align="center">0x6000_0000 </td>
+                                <td align="center">256KB</td>
+                                <td align="center"> 0x6003_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>ENVM-PROGRAM</b>
+                                </th>
+                                <td align="center">0x6000_0000 </td>
+                                <td align="center">8KB</td>
+                                <td align="center"> 0x6000_237F</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>CORESDR_AHB_C1_0:AHBSlave</b>
+                                </th>
+                                <td align="center">0x5000_0000 <br/>0x3000_0000 <br/>
+                                </td>
+                                <td align="center">16MB</td>
+                                <td align="center"> 0x50FF_FFFF<br/> 0x30FF_FFFF<br/>
+                                </td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>SID_BRIDGE_0:AMBA_SLAVE</b>
+                                </th>
+                                <td align="center">0x5100_0000 <br/>0x3100_0000 <br/>
+                                </td>
+                                <td align="center">16MB</td>
+                                <td align="center"> 0x51FF_FFFF<br/> 0x31FF_FFFF<br/>
+                                </td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>CACHE_BACKDOOR</b>
+                                </th>
+                                <td align="center">0x4040_0000 </td>
+                                <td align="center">64KB</td>
+                                <td align="center"> 0x4040_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>SYSREG</b>
+                                </th>
+                                <td align="center">0x4003_8000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4003_8FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>MSSFIC2TOFABRIC</b>
+                                </th>
+                                <td align="center">0x4002_0000 </td>
+                                <td align="center">96KB</td>
+                                <td align="center"> 0x4003_7FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>RTC</b>
+                                </th>
+                                <td align="center">0x4001_7000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4001_7FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>COMBLK</b>
+                                </th>
+                                <td align="center">0x4001_6000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4001_6FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>HDMA</b>
+                                </th>
+                                <td align="center">0x4001_4000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4001_4FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>GPIO</b>
+                                </th>
+                                <td align="center">0x4001_3000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4001_3FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>H2FINTERRUPT</b>
+                                </th>
+                                <td align="center">0x4000_6000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4000_6FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>TIMER</b>
+                                </th>
+                                <td align="center">0x4000_4000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4000_4FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>MMUART_0</b>
+                                </th>
+                                <td align="center">0x4000_0000 </td>
+                                <td align="center">4KB</td>
+                                <td align="center"> 0x4000_0FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>RECYCLED_ESRAM1</b>
+                                </th>
+                                <td align="center">0x2001_2000 </td>
+                                <td align="center">8KB</td>
+                                <td align="center"> 0x2001_3FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>RECYCLED_ESRAM0</b>
+                                </th>
+                                <td align="center">0x2001_0000 </td>
+                                <td align="center">8KB</td>
+                                <td align="center"> 0x2001_1FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>ESRAM1</b>
+                                </th>
+                                <td align="center">0x2000_8000 </td>
+                                <td align="center">32KB</td>
+                                <td align="center"> 0x2000_FFFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>ESRAM0</b>
+                                </th>
+                                <td align="center">0x2000_0000 </td>
+                                <td align="center">32KB</td>
+                                <td align="center"> 0x2000_7FFF</td>
+                                <td cellspace="0" colspan="1" bgcolor="#FFFFFF"/>
+                            </tr>
+                        </table>
+                        <a href="#memmap">Initiator list</a>,
+            <a href="#top">top of page</a>
+                        <br/>
+                        <br/>
+                        <hr/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

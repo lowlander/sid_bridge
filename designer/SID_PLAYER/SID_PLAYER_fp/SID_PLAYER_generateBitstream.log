@@ -1,0 +1,14 @@
+Software Version: 2021.2.0.11
+Opened 'D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER\SID_PLAYER_fp\SID_PLAYER.pro'
+PDB file 'D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER\SID_PLAYER.pdb' has been loaded successfully.
+DESIGN : SID_PLAYER;  CHECKSUM : 5774;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER\SID_PLAYER.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER\SID_PLAYER.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: 602538ad723e8e2a3a7aabe1c9201d4e978994e1c89aa124594eaf68ab38c314
+eNVM component bitstream digest: eafefb6cccbc3ba84a7d249475c6adb1c602822ee961c711905dacec7c687a73
+Entire bitstream digest: f4770290d84c304741c0b0a97cd9a5531432d83896d8cf3b3c802182254c0374
+Finished: Sun Aug 22 16:33:11 2021 (Elapsed time 00:00:07)
+
+Project saved.
+Project closed.

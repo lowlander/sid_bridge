@@ -1,0 +1,78 @@
+INFO: Reading User SDC file D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\constraint\SID_PLAYER_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\constraint\io\sid_player.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 69 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2021.2.0 
+Design: SID_PLAYER                      Started: Sun Aug 22 16:31:43 2021
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 1 seconds
+Improvement              : 4 seconds
+
+Placer completed successfully.
+
+Design: SID_PLAYER                      
+Finished: Sun Aug 22 16:32:08 2021
+Total CPU Time:     00:00:23            Total Elapsed Time: 00:00:25
+Total Memory Usage: 296.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER\SID_PLAYERStarted: Sun Aug 22 16:32:12 2021
+
+
+Router completed successfully.
+
+Design: D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\designer\SID_PLAYER\SID_PLAYER
+Finished: Sun Aug 22 16:32:22 2021
+Total CPU Time:     00:00:09            Total Elapsed Time: 00:00:10
+Total Memory Usage: 445.7 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1458 | 12084 | 12.07      |
+| DFF           | 962  | 12084 | 7.96       |
+| I/O Register  | 0    | 579   | 0.00       |
+| Logic Element | 1622 | 12084 | 13.42      |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  69   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

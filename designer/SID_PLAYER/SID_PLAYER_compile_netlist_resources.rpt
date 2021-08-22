@@ -1,0 +1,189 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)
+Date: Sun Aug 22 16:31:29 2021
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 400 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------+
+| Topcell | SID_PLAYER                                                                   |
+| Format  | Verilog                                                                      |
+| Source  | D:\Clients\AlfheimSystems\SID_PLAYER\FPGA\SID_PLAYER\synthesis\SID_PLAYER.vm |
++---------+------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1458 | 12084 | 12.07      |
+| DFF                       | 962  | 12084 | 7.96       |
+| I/O Register              | 0    | 585   | 0.00       |
+| User I/O                  | 69   | 195   | 35.38      |
+| -- Single-ended I/O       | 69   | 195   | 35.38      |
+| -- Differential I/O Pairs | 0    | 97    | 0.00       |
+| RAM64x18                  | 4    | 22    | 18.18      |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 3    | 8     | 37.50      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1314 | 818 |
+| RAM64x18 Interface Logic | 144  | 144 |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1458 | 962 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 1    |
+| 8      | 4    |
+| 9      | 2    |
+| 16     | 1    |
+| Total  | 8    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 43           | 0           | 0               |
+| Bidirectional I/O             | 24           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  2    |  43    |  24           |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+-------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                    |
++--------+---------+-------------------------------------------------------------------------+
+| 832    | INT_NET | Net   : SDRCLK_c                                                        |
+|        |         | Driver: SID_PLAYER_sb_0/CCC_0/GL0_INST/U0_RGB1                          |
+|        |         | Source: NETLIST                                                         |
+| 634    | INT_NET | Net   : AND2_0_Y_1_arst                                                 |
+|        |         | Driver: AND2_0_RNIKOS1/U0_RGB1                                          |
+|        |         | Source: NETLIST                                                         |
+| 58     | INT_NET | Net   : SID_PLAYER_sb_0/MSS_HPMS_READY_int                              |
+|        |         | Driver: SID_PLAYER_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIUCRC/U0_RGB1 |
+|        |         | Source: NETLIST                                                         |
++--------+---------+-------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-----------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                  |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------+
+| 66     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh_Z                    |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh                      |
+| 63     | INT_NET | Net   : AND2_0_Y_1                                                                                                    |
+|        |         | Driver: AND2_0                                                                                                        |
+| 63     | INT_NET | Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_slavestage_0_hwdata10                                                |
+|        |         | Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/slavestage_0/masterDataInProg[0]                                     |
+| 51     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/un1_command_0_sqmuxa_i |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m198                   |
+| 50     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/command_0_sqmuxa_453   |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m202                   |
+| 49     | INT_NET | Net   : CORESDR_AHB_C1_0_CORESDR_AHB_C1_0_genblk1_CoreSDR_0_state_ahb[1]                                              |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/state_ahb_Z[1]                                            |
+| 46     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_N_3                                             |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_m2                                              |
+| 45     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[3]                   |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[3]                     |
+| 45     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[0]                   |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[0]                     |
+| 43     | INT_NET | Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_masterstage_0_masterRegAddrSel                                       |
+|        |         | Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel                                       |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-----------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                  |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------+
+| 66     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh_Z                    |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/refresh                      |
+| 63     | INT_NET | Net   : AND2_0_Y_1                                                                                                    |
+|        |         | Driver: AND2_0                                                                                                        |
+| 63     | INT_NET | Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_slavestage_0_hwdata10                                                |
+|        |         | Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/slavestage_0/masterDataInProg[0]                                     |
+| 51     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/un1_command_0_sqmuxa_i |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m198                   |
+| 50     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/command_0_sqmuxa_453   |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/rx_data_fifo_async/CDC_rdCtrl_inst/m202                   |
+| 49     | INT_NET | Net   : CORESDR_AHB_C1_0_CORESDR_AHB_C1_0_genblk1_CoreSDR_0_state_ahb[1]                                              |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/state_ahb_Z[1]                                            |
+| 46     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_N_3                                             |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/HRDATA_sn_m2                                              |
+| 45     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[3]                   |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[3]                     |
+| 45     | INT_NET | Net   : CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact_Z[0]                   |
+|        |         | Driver: CORESDR_AHB_C1_0/CORESDR_AHB_C1_0/genblk1.CoreSDR_0/CoreSDR_0/fastinit/fastsdram/goact[0]                     |
+| 43     | INT_NET | Net   : SID_PLAYER_sb_0_CoreAHBLite_0_matrix4x16_masterstage_0_masterRegAddrSel                                       |
+|        |         | Driver: SID_PLAYER_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel                                       |
++--------+---------+-----------------------------------------------------------------------------------------------------------------------+
+

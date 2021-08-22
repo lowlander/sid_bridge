@@ -1,0 +1,240 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/simulation
+Ecoresdr
+Z1 w1629140376
+Z2 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 8
+R0
+Z6 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr.vhd
+Z7 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr.vhd
+l0
+Z8 L25 1
+V;^;n9KAiS4[MN:KN2n8CA3
+!s100 I9jRQc39D1dL5jlJI5z9U3
+Z9 OW;C;2020.4;71
+33
+Z10 !s110 1629546645
+!i10b 1
+Z11 !s108 1629546645.000000
+Z12 !s90 -reportprogress|300|-2008|-explicit|-work|CORESDR_AXI_LIB|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr.vhd|
+Z13 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr.vhd|
+!i113 1
+Z14 o-2008 -explicit -work CORESDR_AXI_LIB -O0
+Z15 tCvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 7 coresdr 0 22 ;^;n9KAiS4[MN:KN2n8CA3
+!i122 8
+l172
+L77 216
+VOTn@aFODcGzKUhOA?8EeG1
+!s100 h]9mUC>dWUZOMa2>KnL5A1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ecoresdr_axi
+R1
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R4
+R5
+!i122 9
+R0
+Z18 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr_axi.vhd
+Z19 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr_axi.vhd
+l0
+L52 1
+VB86?M71b[3U@H7B?W6@zY2
+!s100 24zY5>h7KQz@j@Sk8W1Fz0
+R9
+33
+R10
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-2008|-explicit|-work|CORESDR_AXI_LIB|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr_axi.vhd|
+Z21 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/coresdr_axi.vhd|
+!i113 1
+R14
+R15
+Atrans
+R16
+R3
+R17
+R4
+R5
+Z22 DEx4 work 11 coresdr_axi 0 22 B86?M71b[3U@H7B?W6@zY2
+!i122 9
+l347
+Z23 L158 1321
+Z24 VS`=WBjRoTkVO];AaM=Tie0
+Z25 !s100 Yj1d`aJ4JljQEZn9jnz4h1
+R9
+33
+R10
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Efastinit
+R1
+R17
+R3
+R4
+R5
+!i122 7
+R0
+Z26 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastinit.vhd
+Z27 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastinit.vhd
+l0
+L26 1
+VU_96Z>MNVY9UmzzTi?0Nf2
+!s100 nUEGlYQ29J5`RoT7[l;[M1
+R9
+33
+R10
+!i10b 1
+R11
+Z28 !s90 -reportprogress|300|-2008|-explicit|-work|CORESDR_AXI_LIB|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastinit.vhd|
+Z29 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastinit.vhd|
+!i113 1
+R14
+R15
+Artl
+R17
+R3
+R4
+R5
+DEx4 work 8 fastinit 0 22 U_96Z>MNVY9UmzzTi?0Nf2
+!i122 7
+l164
+L77 325
+V9Zn?YBS_7Xk=ZBQ3CF[dl2
+!s100 lJlgg10C5?P8FZM3APEWM1
+R9
+33
+R10
+!i10b 1
+R11
+R28
+R29
+!i113 1
+R14
+R15
+Efastsdram
+R1
+R16
+R3
+R17
+R4
+R5
+!i122 6
+R0
+Z30 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastsdram.vhd
+Z31 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastsdram.vhd
+l0
+R8
+VU5OHlg<HKj3[h?U0h0UNE1
+!s100 2doUOi9Jd:bQ0TAE7m0eV1
+R9
+33
+R10
+!i10b 1
+R11
+Z32 !s90 -reportprogress|300|-2008|-explicit|-work|CORESDR_AXI_LIB|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastsdram.vhd|
+Z33 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/fastsdram.vhd|
+!i113 1
+R14
+R15
+Artl
+R16
+R3
+R17
+R4
+R5
+DEx4 work 9 fastsdram 0 22 U5OHlg<HKj3[h?U0h0UNE1
+!i122 6
+l226
+L80 1007
+VG]XhJXU<_MA=k<Y6;Z?jI1
+!s100 >:gEf]g1ZMOWT0kd3YY5V0
+R9
+33
+R10
+!i10b 1
+R11
+R32
+R33
+!i113 1
+R14
+R15
+Eopenbank
+R1
+R3
+R17
+R4
+R5
+!i122 5
+R0
+Z34 8D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/openbank.vhd
+Z35 FD:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/openbank.vhd
+l0
+R8
+VN:T2Z`C:Pi_NjTaikFJ5E0
+!s100 4bQF^4P?AJ]6FzSlkFE9@0
+R9
+33
+R10
+!i10b 1
+R11
+Z36 !s90 -reportprogress|300|-2008|-explicit|-work|CORESDR_AXI_LIB|D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/openbank.vhd|
+Z37 !s107 D:/Clients/AlfheimSystems/SID_SABER/FPGA/SID_SABER/component/Actel/DirectCore/CORESDR_AXI/2.0.116/rtl/vhdl/core/openbank.vhd|
+!i113 1
+R14
+R15
+Artl
+R3
+R17
+R4
+R5
+DEx4 work 8 openbank 0 22 N:T2Z`C:Pi_NjTaikFJ5E0
+!i122 5
+l83
+L65 431
+V7DTj;j`z^QKZSaVO2BIHC2
+!s100 U7cEj1ngU>:3gCV;Q==^c2
+R9
+33
+R10
+!i10b 1
+R11
+R36
+R37
+!i113 1
+R14
+R15
